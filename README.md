@@ -2,7 +2,7 @@
 
 AI w analizie biznesowej · Agnieszka Balcerzak · InProgress.
 
-Prywatne repozytorium materiałów uczestnika.
+Publiczne repozytorium materiałów uczestnika — dostęp do odczytu bez zaproszenia i logowania.
 
 **Zacznij od [workbooka: instrukcje i prompty krok po kroku](workbook.md).** Całe studium przypadku jest fikcyjne. Nie zawiera danych prywatnych, rzeczywistej korespondencji ani rzeczywistych klientów.
 
@@ -52,6 +52,6 @@ Nie uzupełniaj luk dotyczących narzędzi, budżetu, polityk, progów czy upraw
 
 ## Jak otworzyć pliki
 
-Czytaj Markdown bezpośrednio na GitHub albo pobierz repozytorium przez **Code → Download ZIP** i otwórz rozpakowany katalog repozytorium. Oba dni można przejść w bezpłatnym czacie, kopiując potrzebny tekst. Model nie otrzymuje dostępu do prywatnego repozytorium przez samo wklejenie linku.
+Czytaj Markdown bezpośrednio na GitHub albo pobierz repozytorium przez **Code → Download ZIP** i otwórz rozpakowany katalog repozytorium. Oba dni można przejść w bezpłatnym czacie, kopiując potrzebny tekst. Jeśli czat nie odczytuje linków, wklej treść potrzebnych plików.
 
 Własne wyniki zapisuj w lokalnym folderze `rezultaty/`, z oznaczeniem modułu i grupy. Profili osobistych nie musisz udostępniać. Nazwy plików technicznych `AGENTS.md` oraz rozszerzenie `.md` zachowują swoje znaczenie; treść opracowujemy po polsku.
