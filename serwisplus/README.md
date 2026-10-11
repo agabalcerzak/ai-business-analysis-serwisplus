@@ -3,6 +3,8 @@
 AI w analizie biznesowej · Agnieszka Balcerzak · materiały przygotowane dla InProgress.
 Wersja: 11.10.2026. Fikcyjny przypadek szkoleniowy. Firmy, osoby, rozmowy, dane i zdarzenia nie opisują rzeczywistych podmiotów.
 
+[Workbook — instrukcje do części warsztatowej](workbook.md)
+
 ## Zacznij tutaj
 1. W module 2 korzystaj z plików 01–08 wskazanych przez prowadzącą.
 2. Od modułu 3 otrzymujesz gotowe cztery approachy (09–12). Przeczytaj także rozmowy (13) i zadanie warsztatowe (14).
