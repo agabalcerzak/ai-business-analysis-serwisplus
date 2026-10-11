@@ -1,4 +1,4 @@
-# Information Management Approach — przykład referencyjny
+# Podejście do zarządzania informacją — przykład referencyjny
 
 | Rodzaj informacji | identyfikacja/źródło/status | wersjonowanie i powiązania | proponowany dostęp i opieka | luka do uzgodnienia |
 | --- | --- | --- | --- | --- |

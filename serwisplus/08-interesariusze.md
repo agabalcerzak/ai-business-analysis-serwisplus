@@ -12,4 +12,4 @@ Fikcyjny przypadek. Opracowanie SP-01–03, stan przed SP-04. Opis roli nie usta
 | Technicy | Odbierają sprawy | Źródło danych, oddzielenie informacji od interpretacji | Minimalny użyteczny produkt przekazania | SP-02 |
 | Klienci B2B | Zgłaszają problemy | Perspektywa niepozyskana w SP-01–03 | Do kogo kierować pytania, skutki dodatkowej korespondencji | SP-01; luka SP-K04 |
 
-Nie przypisano fikcyjnych kontaktów, dostępności ani ocen wpływu. Uczestnik może zaproponować te elementy i oznaczyć je jako hipotezy.
+Adresy w folderze maile są fikcyjnym elementem scenariusza, nie dowodem tożsamości lub uprawnień. Nie ustalono dostępności ani ocen wpływu. Uczestnik może zaproponować te elementy i oznaczyć je jako hipotezy.

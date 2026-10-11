@@ -1,4 +1,4 @@
-# Stakeholder Engagement Approach — przykład referencyjny
+# Podejście do współpracy z interesariuszami — przykład referencyjny
 
 | Interesariusz | cel i temat współpracy | proponowana forma | moment/częstotliwość do uzgodnienia | podstawa źródłowa | pytanie do potwierdzenia |
 | --- | --- | --- | --- | --- | --- |

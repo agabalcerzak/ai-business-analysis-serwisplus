@@ -1,4 +1,4 @@
-# Governance Approach — przykład referencyjny
+# Podejście do podejmowania decyzji — przykład referencyjny
 
 | Rodzaj decyzji | znana odpowiedzialność ze źródła | proponowana ścieżka i kryterium | sposób odnotowania | brakujący mandat lub pytanie |
 | --- | --- | --- | --- | --- |
