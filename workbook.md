@@ -160,6 +160,16 @@ Przygotowuję warsztat SerwisPlus. Na podstawie załączonych materiałów 01–
 
 ### Weryfikacja i walidacja przykładowych wymagań z AI
 
+### Co to jest weryfikacja, a co walidacja?
+
+**Weryfikacja wymagań** to sprawdzenie jakości ich zapisu i modeli: czy zostały określone poprawnie, spełniają przyjęte standardy i nadają się do dalszej pracy. Pytamy: **„Czy dobrze opisaliśmy wymagania?”** Sprawdzamy m.in. jednoznaczność, spójność, kompletność na danym poziomie i testowalność. Wynikiem są konkretne uwagi do jakości oraz propozycje poprawy. Podstawa: [IIBA — Verify Requirements and Designs](https://www.iiba.org/contentassets/bba6e0ebf87742339a35daab74a20b11/task-card-verify-req-and-designs.pdf).
+
+**Walidacja wymagań** to sprawdzenie, czy wymagania wspierają potrzebę biznesową, cele organizacji i oczekiwaną wartość. Pytamy: **„Czy opisaliśmy właściwe wymagania — takie, których realizacja ma sens?”** Potrzebujemy kontekstu: celu inicjatywy, potrzeb interesariuszy, reguł, ograniczeń i decyzji. Sam tekst wymagania nie wystarcza do oceny jego zasadności. Wynikiem jest uzasadniona ocena biznesowa albo wskazanie, jakich informacji brakuje. Podstawa: [IIBA — Validate Requirements and Designs](https://www.iiba.org/contentassets/2c852987667c4ee29b7f2ea3fdbf9cb1/task-card-validate-req-and-designs.pdf).
+
+**Przykład ilustrujący różnicę:** zapis „System ma szybko obsłużyć zgłoszenie” wymaga weryfikacji — nie wiadomo, co oznacza „szybko” i jak to sprawdzić. Z kolei wymaganie może być precyzyjne i testowalne, ale dotyczyć funkcji, która nie wspiera potrzeby biznesowej; to problem ujawniany w walidacji.
+
+W tym ćwiczeniu oceniacie wymagania, a nie działający system. AI pomaga w obu rodzajach przeglądu; sprawdzacie jego uwagi i ich podstawy. Walidacja nie jest równoznaczna z formalnym zatwierdzeniem wymagania, a odpowiedź AI nie zastępuje decyzji uprawnionych interesariuszy.
+
 **Materiał do oceny:** [SP-06 — przykładowy szkic wymagań W01–W08](rezultaty/17-wadliwy-szkic-wymagan.md). To celowo wadliwy, niezatwierdzony szkic do przeglądu.
 
 **Wspólny kontekst:** [brief SP-01](01-brief-projektu.md), [wypowiedzi SP-02](02-glosy-interesariuszy.md), [reguły SP-03](03-reguly-biznesowe.md) i [decyzje SP-04](maile/15-potwierdzenie-decyzji-po-warsztacie.md). Pozostałe materiały 04–12 i notatki R01–R03 możecie wykorzystać pomocniczo. SP-04 stanowi fikcyjne wejście do ćwiczenia.
