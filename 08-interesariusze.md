@@ -1,15 +1,17 @@
-# Osoby i grupy interesariuszy
+# Interesariusze — role, potrzeby i dostępność
 
-Fikcyjny przypadek. Opracowanie SP-01–03, stan przed SP-04. Opis roli nie ustanawia dodatkowego mandatu.
+Fikcyjna karta kontaktów projektu. Stan na 2 września 2026. Zebrana przez Aleksandrę Maj na podstawie rozmów i potwierdzeń dostępności. Zakresy decyzji: [kontekst projektu](07-kontekst-projektu.md).
 
-| Osoba / grupa | Rola ze źródła | Perspektywa i temat rozmowy | Co wymaga potwierdzenia | Podstawa |
-| --- | --- | --- | --- | --- |
-| Anna Lis | Właścicielka SerwisPlus, sponsorka inicjatywy | Czas przygotowania, jakość przekazania, dowód wartości pilotażu | Progi, pomiar, tryb zatwierdzenia zakresu i budżetu | SP-01; SP-02 Anna |
-| Ewa Krawiec | Właścicielka procesu i reguł | Odpowiedzialność konsultanta, kompletność i decyzja o przekazaniu | Tryb zmiany reguł, akceptacja artefaktów | SP-02 Ewa; SP-03 |
-| Marta Nowak | Liderka konsultantów | Ograniczenie pracy ręcznej; postulat numeru seryjnego i automatycznej wysyłki | Uzasadnienie postulatu, przykłady problemów, wpływ na pracę | SP-02 Marta |
-| Piotr Zieliński | Lider techników | Jednoznaczny model i obserwowalny objaw | Przykłady wystarczającego opisu, definicja zwrotu | SP-02 Piotr |
-| Konsultanci | Przyjmują i przygotowują zgłoszenia | Obawa o dodatkowe narzędzie i niezauważone błędy | Sposób kontroli, warunki użyteczności | SP-02; SP-03.7 |
-| Technicy | Odbierają sprawy | Źródło danych, oddzielenie informacji od interpretacji | Minimalny użyteczny produkt przekazania | SP-02 |
-| Klienci B2B | Zgłaszają problemy | Perspektywa niepozyskana w SP-01–03 | Do kogo kierować pytania, skutki dodatkowej korespondencji | SP-01; luka SP-K04 |
+| Osoba / grupa | Co wnosi do analizy | Potrzeba lub obawa | Dostępność i forma kontaktu |
+| --- | --- | --- | --- |
+| Anna Lis — właścicielka i sponsorka | Cel, wartość, zakres i decyzje o pilotażu | Chce dowodu poprawy czasu i jakości, nie samej demonstracji | Pierwsze 20 min warsztatu; krótkie podsumowania e-mailem |
+| Ewa Krawiec — właścicielka procesu | Reguły, odpowiedzialność i przebieg przekazania | Obawia się niekontrolowanych zmian i mylenia propozycji AI z decyzją | Cały warsztat; dodatkowe 30 min na przegląd opisu procesu |
+| Marta Nowak — liderka konsultantów | Rzeczywista praca przy przyjęciu zgłoszenia | Chce mniej przepisywania; postuluje numer seryjny i automatyczną wysyłkę | Cały warsztat; może zebrać przykłady i uwagi dwóch konsultantów |
+| Piotr Zieliński — lider techników | Jakość informacji potrzebnej do rozpoczęcia obsługi | Nie chce diagnoz bez danych ani niejednoznacznych modeli | Cały warsztat; może przejrzeć przykłady przed spotkaniem |
+| Konsultanci — użytkownicy wsparcia | Błędy, wyjątki, nakład pracy i kontrola wyniku | Dodatkowe narzędzie może zwiększyć pracę; obawa przed niezauważonym błędem | Dwie osoby mogą udzielić wspólnej 20-minutowej rozmowy; termin do ustalenia z Martą |
+| Technicy — odbiorcy informacji | Ocena użyteczności przekazywanego opisu | Chcą odróżniać informację klienta od interpretacji | Jedna osoba może przejrzeć przykłady; wybór i termin przez Piotra |
+| Klienci B2B | Perspektywa składania i uzupełniania zgłoszeń | Nie została jeszcze pozyskana | Nie uzyskano zgody na kontakt w inicjatywie; potrzebę i sposób kontaktu trzeba uzgodnić |
+| IT i osoba odpowiedzialna za ochronę danych | Dopuszczenie narzędzia, bezpieczeństwo, ograniczenia integracji | Stanowisko niepozyskane | Anna ma wskazać właściwe osoby; nie zaproszono ich na warsztat |
+| Aleksandra Maj — analityczka | Łączy źródła, przygotowuje analizę i dokumentuje ustalenia | Potrzebuje rozdzielenia faktów, oczekiwań i decyzji | Prowadzi analizę w wymiarze określonym w karcie projektu |
 
-Adresy w folderze maile są fikcyjnym elementem scenariusza, nie dowodem tożsamości lub uprawnień. Nie ustalono dostępności ani ocen wpływu. Uczestnik może zaproponować te elementy i oznaczyć je jako hipotezy.
+Wypowiedzi i rozbieżności: [głosy interesariuszy](02-glosy-interesariuszy.md). Ta karta nie jest gotowym Stakeholder Engagement Approach — formę współpracy w kolejnych krokach, częstotliwość, sposób pozyskania informacji i potwierdzania wyników należy zaproponować.

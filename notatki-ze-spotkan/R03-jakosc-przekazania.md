@@ -1,39 +1,26 @@
-# R03 — jakość przekazania sprawy
+# Notatka ze spotkania — jakość informacji dla techników
 
-Data scenariusza: 2 września 2026. Uczestnicy: Piotr Zieliński, przedstawiciele techników i konsultantów, Aleksandra Maj (analityczka w scenariuszu).
-
-Materiał fikcyjny: notatka w układzie podsumowanie + notatki tematyczne + kwestie otwarte, inspirowanym narzędziami do notowania spotkań. To nie jest eksport z Granoli ani rzeczywista transkrypcja. Adaptacja: SP-02: Piotr, technicy i konsultanci; SP-03.8. Skład spotkania i pytania analityczki są elementem scenariusza. Treść nie stanowi niezależnego potwierdzenia SP-01–03.
+Fikcyjne spotkanie: 2 września 2026. Uczestnicy: Piotr Zieliński, przedstawiciele konsultantów i techników, Aleksandra Maj. Notatka robocza.
 
 ## Podsumowanie
+Technicy potrzebują rozpoznawalnego modelu i opisu obserwowalnego zachowania urządzenia. Konsultanci chcą wyniku łatwego do sprawdzenia, bez ponownego przepisywania całej wiadomości.
 
-- Technicy potrzebują jednoznacznego modelu urządzenia i obserwowalnego objawu.
-- Źródło informacji klienta powinno być odróżnione od interpretacji.
-- Konsultanci sygnalizują obawę przed kolejnym narzędziem i niezauważonymi błędami.
+## Notatki tematyczne
+**Opis objawu.** Piotr: „Nie działa” zwykle wymaga doprecyzowania. „Kartka zatrzymuje się przy wyjściu, komunikat E12” pozwala zrozumieć, co klient obserwuje. Taki opis nadal nie jest diagnozą usterki.
 
-## Notatki ze spotkania
+**Sprzeczność.** Technik opisuje sprawę, w której w tytule wiadomości był P200, a w treści P300. Nie ma reguły, że ostatnia wzmianka jest poprawna. Trzeba zapytać klienta.
 
-### Co umożliwia pracę technikom
-Piotr: potrzebuję jednoznacznego modelu i opisu tego, co urządzenie robi. Nie chcę diagnozy wygenerowanej bez danych.
+**Źródło.** Technicy chcą móc zobaczyć fragment wiadomości, na którym oparto podsumowanie. Sformułowanie „uszkodzony moduł” nie może zastępować „klient zgłasza migający ekran”, jeśli nie przeprowadzono diagnozy.
 
-### Pochodzenie danych
-Technicy chcą widzieć, skąd pochodzi informacja. Opis klienta i interpretacja nie powinny być przedstawiane jako to samo.
+**Nakład pracy.** Konsultant: „Jeśli będę musiał sprawdzać cały długi opis i przepisać go do rejestru, mogę nie zyskać czasu”. Druga osoba woli widzieć pola, braki i krótki szkic, ale nie pokazano jeszcze prototypu.
 
-### Użyteczność dla konsultantów
-Konsultanci obawiają się kolejnego narzędzia i odpowiedzialności za błędy, których nie zauważą. Materiał nie opisuje jeszcze interfejsu, sposobu kontroli ani zaakceptowanego rozwiązania.
+## Otwarte kwestie
+- Jak szczegółowy ma być opis, aby uznać wymagane pole „objaw” za ustalone?
+- W jakiej formie pokazać dane, statusy i ich źródła?
+- Co w podsumowaniu jest konieczne, a co utrudni szybki przegląd?
+- Jak mierzyć błędy, przeoczenia i czas kontroli wyniku?
 
-### Pytania analityczki
-Jak wynik pokaże źródło danych? Co konsultant sprawdzi przed przekazaniem? Jak rozpozna i zgłosi błędną propozycję?
+## Decyzje
+Nie uzgodniono interfejsu, limitu długości ani czasu odpowiedzi narzędzia. Obowiązują [reguły procesu](../03-reguly-biznesowe.md). Przykłady i preferencje pozostają materiałem do uzgodnień.
 
-## Decyzje i potwierdzenie
-
-W tej notatce nie ustanowiono nowych decyzji. Zachowujemy status wypowiedzi i istniejące reguły SP-03. Notatka jest robocza; sposób potwierdzenia jej treści należy zaplanować na warsztacie.
-
-## Kwestie otwarte i proponowane dalsze kroki
-
-| Temat | Status | Do kogo wrócić |
-| --- | --- | --- |
-| Minimalny użyteczny opis objawu | Potrzeba znana, szczegółowe kryteria do wyjaśnienia | Piotr i technicy |
-| Kontrola i obsługa błędów | Brak uzgodnionego sposobu | Konsultanci i Ewa |
-| Narzędzie | Nieustalone | Właściwa rola organizacyjna do ustalenia |
-
-Adresaci pytań to propozycja analityczki, nie potwierdzone przydzielenie zadania ani terminu. Stan projektu przed SP-04; dostępne od modułu 3.
+Materiał do przygotowania warsztatu w module 3.

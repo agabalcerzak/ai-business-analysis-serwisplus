@@ -1,12 +1,19 @@
-# Podejście do zarządzania informacją — przykład referencyjny
+# Podejście do zarządzania informacją — przykład
 
-| Rodzaj informacji | identyfikacja/źródło/status | wersjonowanie i powiązania | proponowany dostęp i opieka | luka do uzgodnienia |
-| --- | --- | --- | --- | --- |
-| Brief i wypowiedzi | SP-01/02; autor/rola, data, status | Propozycja: zachować oryginał i linkować opracowania | Dostęp zespołu uprawnionego; opiekun do uzgodnienia | Miejsce przechowywania |
-| Reguły | SP-03, punkty, obowiązuje od 01.08; właścicielka Ewa | Propozycja: wersja i powiązanie zmiany z decyzją | Potwierdzić sposób utrzymania z Ewą | Kto publikuje nową wersję? |
-| Modele i glosariusz | K01/02; model roboczy, nie zatwierdzony | Propozycja: powiązać pojęcia z regułami i źródłami | Opiekun i recenzenci do uzgodnienia | Sposób potwierdzenia znaczeń |
-| Wyniki warsztatu | Proponowane ID, uczestnicy, data, status potwierdzenia | Propozycja: źródło → ustalenie → wymaganie | Dostęp i osoba utrzymująca do uzgodnienia | Mandat do potwierdzenia i retencja |
-| Wymagania i decyzje | Proponowane ID, źródło, status, odpowiedzialność | Propozycja: wersje, uzasadnienia zmian, powiązania | Uprawnienia do edycji i akceptacji do uzgodnienia | Brak zatwierdzonego repozytorium |
+Fikcyjny przykład do wykorzystania od modułu 3. Propozycja analityczna oparta na plikach 01–08; nie jest zatwierdzonym planem SerwisPlus. Stan przed warsztatem 4 września.
 
+Korzystamy z istniejącego wewnętrznego katalogu zespołu; nie zakładamy zakupu platformy. Oddzielamy źródła od opracowań i zachowujemy historię. Poniższe szczegóły są propozycją do uzgodnienia.
 
-Gotowy przykład referencyjny do wykorzystania od modułu 3. Propozycja sposobu prowadzenia analizy; nie dowód zatwierdzenia przez interesariuszy. Podstawa: SP-01–03 w plikach 01–03. Wszystkie role i zdarzenia są fikcyjne.
+| Rodzaj informacji | Identyfikacja i status | Powiązania i utrzymanie |
+| --- | --- | --- |
+| Brief, korespondencja, notatki | Nazwa, autor, data, status potwierdzenia | Zachowany oryginał; opracowanie odsyła do źródła |
+| Reguły i słownik | Numer reguły / pojęcie, właścicielka, wersja, data obowiązywania | Zmiana wskazuje decyzję i wymagania, na które wpływa |
+| Wyniki warsztatu | Temat, wypowiedź lub decyzja, osoba i zakres potwierdzenia | Niepotwierdzone fragmenty pozostają jawnie oznaczone |
+| Wymagania | ID, typ, treść, źródło, status, priorytet, wersja | Potrzeba → źródło / decyzja → wymaganie → kryterium i wynik przeglądu |
+| Decyzje i kwestie otwarte | ID, zakres, osoba uprawniona, data, rezultat lub pytanie | Linki do dotkniętych informacji; otwarte nie staje się rozstrzygniętym przez upływ czasu |
+
+Aleksandra proponuje utrzymywanie wersji roboczych i powiązań; właściciele merytoryczni potwierdzają treść. Uprawnienia edycji i publikacji wymagają ustalenia. Oryginalna korespondencja klienta ma dostęp ograniczony zgodnie z zasadami organizacji; do prób AI używamy danych syntetycznych. Nie wymyślamy okresu retencji.
+
+Przed rekomendacją sprawdzamy aktualność źródeł, statusy, sprzeczności i kompletność powiązań. Ustalenia z maila przenosimy do opracowania z linkiem do wiadomości, zachowując jej treść.
+
+Podstawa: [słownik](../05-slownik-biznesowy.md), [zasady informacji](../06-polityki-i-informacje.md).

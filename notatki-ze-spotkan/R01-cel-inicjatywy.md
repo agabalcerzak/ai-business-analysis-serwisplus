@@ -1,35 +1,25 @@
-# R01 — cel inicjatywy
+# Notatka ze spotkania — cel inicjatywy i pomiar wartości
 
-Data scenariusza: 2 września 2026. Uczestnicy: Anna Lis, Aleksandra Maj (analityczka w scenariuszu).
-
-Materiał fikcyjny: notatka w układzie podsumowanie + notatki tematyczne + kwestie otwarte, inspirowanym narzędziami do notowania spotkań. To nie jest eksport z Granoli ani rzeczywista transkrypcja. Adaptacja: SP-01 i SP-02: Anna. Skład spotkania i pytania analityczki są elementem scenariusza. Treść nie stanowi niezależnego potwierdzenia SP-01–03.
+Fikcyjne spotkanie: 2 września 2026. Uczestniczki: Anna Lis i Aleksandra Maj. Notatka robocza Aleksandry; wypowiedzi nie zastępują formalnych decyzji.
 
 ## Podsumowanie
+Anna chce ograniczyć pracę przy przygotowaniu zgłoszeń i zwroty od techników. Pokaz narzędzia nie będzie wystarczającą podstawą rekomendacji. Nie uzgodniono jeszcze definicji pomiaru ani progów sukcesu.
 
-- Anna oczekuje krótszej aktywnej pracy przy przygotowaniu zgłoszeń oraz ograniczenia zwrotów z powodu brakujących danych.
-- Wartość pilotażu ma być oceniona na podstawie czasu i jakości, a nie samego pokazu narzędzia.
-- Wartości bazowe i kryteria sukcesu wymagają wyjaśnienia.
+## Notatki tematyczne
+**Czas pracy.** Anna: „W rejestrze widzimy moment otrzymania i przekazania sprawy, ale pomiędzy nimi często czekamy na klienta. Nie wiem, ile z tego konsultant faktycznie pracuje. Nie porównujmy całego czasu otwarcia sprawy z czasem samego użycia AI”.
 
-## Notatki ze spotkania
+**Jakość.** Anna: „Jeżeli będzie szybciej, ale technicy częściej odeślą sprawę, nie uznam tego za poprawę”. Rejestr nie rozróżnia obecnie zwrotu z powodu brakującej informacji od zwrotu dotyczącego decyzji technicznej.
 
-### Potrzeba biznesowa
-Anna: chcemy mniej czasu poświęcać na przygotowanie sprawy i mniej razy wracać do brakujących danych. Jednocześnie jakość przekazania nie może się pogorszyć.
+**Zakres.** Anna podtrzymuje zlecenie z [briefu](../01-brief-projektu.md). Budżet i zakup narzędzia nie są zatwierdzone. Na rekomendację czeka do 11 września.
 
-### Oczekiwana pomoc AI
-Anna wskazuje porządkowanie treści, wykrywanie braków, podsumowanie i przygotowanie pytań. Nie oczekuje od AI samodzielnej decyzji o wdrożeniu. Demonstracja nie zastąpi pomiaru czasu i jakości.
+**Udział w warsztacie.** Anna może uczestniczyć 4 września od 10:00 do 10:20. Chce omówić cel, zakres i sposób oceny wartości. Szczegóły przebiegu obsługi powierza Ewie.
 
-### Pytania analityczki
-Jak dziś mierzymy aktywny czas pracy? Jak odróżnimy go od oczekiwania na klienta? Co uznamy za zwrot spowodowany jakością informacji? Jakie dane bazowe są dostępne?
+## Otwarte kwestie
+- Jak oddzielić aktywną pracę od oczekiwania na klienta?
+- Jak klasyfikować przyczynę zwrotu i z czym porównywać wyniki?
+- Jaki wynik czasu i jakości pozwoli rekomendować pilotaż?
 
-## Decyzje i potwierdzenie
+## Decyzje
+Nie ustalono nowych progów ani zgody na wdrożenie. Obowiązuje kierunek z briefu. Odpowiedzi na otwarte pytania nie zostały jeszcze pozyskane.
 
-W tej notatce nie ustanowiono nowych decyzji. Zachowujemy status wypowiedzi i istniejące reguły SP-03. Notatka jest robocza; sposób potwierdzenia jej treści należy zaplanować na warsztacie.
-
-## Kwestie otwarte i proponowane dalsze kroki
-
-| Temat | Status | Do kogo wrócić |
-| --- | --- | --- |
-| Definicja i baza pomiaru | Brak odpowiedzi w materiale | Anna i osoby znające proces — propozycja |
-| Próg sukcesu i jakości | Nieustalony na tym etapie | Anna; właściwy tryb decyzji do uzgodnienia |
-
-Adresaci pytań to propozycja analityczki, nie potwierdzone przydzielenie zadania ani terminu. Stan projektu przed SP-04; dostępne od modułu 3.
+Materiał do przygotowania warsztatu w module 3. Nie zawiera jego przyszłych wyników.

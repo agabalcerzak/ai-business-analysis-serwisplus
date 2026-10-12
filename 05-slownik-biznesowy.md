@@ -1,4 +1,6 @@
-# SP-K02. Glosariusz roboczy
+# Słownik biznesowy
+
+Dawne oznaczenie: SP-K02.
 Status: parafrazy SP-01–03 do ujednolicenia języka, do potwierdzenia z właścicielką procesu.
 Zgłoszenie: otrzymana informacja klienta o problemie urządzenia biurowego.
 Rejestracja: zapisanie sprawy, również niekompletnej (SP-03.1).
@@ -10,4 +12,4 @@ Zwrot: odesłanie sprawy po przekazaniu z powodu braków lub niejednoznaczności
 
 
 
-Materiał fikcyjny. Wersja szkoleniowa 11.10.2026. Stan wejściowy modułu 3, przed SP-04.
+Materiał fikcyjny. Wersja szkoleniowa 11.10.2026. Stan przed warsztatem; do modułów 2–4.

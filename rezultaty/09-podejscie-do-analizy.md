@@ -1,13 +1,18 @@
-# Podejście do prowadzenia analizy — przykład referencyjny
+# Podejście do prowadzenia analizy — przykład
 
-| Działanie analityczne | rezultat | technika i potrzebny udział | kiedy/w jakiej zależności | źródło lub uzasadnienie propozycji | luka |
-| --- | --- | --- | --- | --- | --- |
-| Analiza SP-01–03 | Lista luk i statusów | Analiza dokumentów; analityk | Przed warsztatem | SP-01–03; działanie proponowane | Progi i pomiar sukcesu |
-| Przygotowanie warsztatu | Agenda i pytania | Plan warsztatu; konsultacja zakresu z Ewą | Po liście luk | SP-02; propozycja | Dostępność i uczestnictwo |
-| Pozyskanie informacji i potwierdzenie | Zapis wyników, następnie potwierdzone ustalenia | Warsztat i przegląd z właściwymi uczestnikami | Przed bazowaniem wymagań na ustaleniach | BABOK 4.2–4.3; propozycja | Kto potwierdza które ustalenia? |
-| Wymagania i warianty | Propozycje wymagań, reguł i opcji wsparcia | Modelowanie, analiza reguł i wariantów | Po pozyskaniu potrzebnych informacji | SP-01 i SP-03; propozycja | Ograniczenia techniczne |
-| Ocena jakości i wartości | Kryteria oraz plan pomiaru | Przegląd i analiza pomiarów | Przed pilotażem i w jego ocenie | Oczekiwanie Anny w SP-02; propozycja | Baza, progi, odpowiedzialność za pomiar |
+Fikcyjny przykład do wykorzystania od modułu 3. Propozycja analityczna oparta na plikach 01–08; nie jest zatwierdzonym planem SerwisPlus. Stan przed warsztatem 4 września.
 
+Cel: przygotować rekomendację pilotażu do 11 września w ramach pięciu dni pracy analityczki. Podejście iteracyjne: krótki przegląd źródeł, pozyskanie braków, robocze wymagania, przegląd i korekta. Nie planujemy implementacji.
 
+| Krok | Technika i udział | Rezultat i warunek przejścia |
+| --- | --- | --- |
+| Uporządkowanie źródeł | Analiza dokumentów przez Aleksandrę | Zakres, statusy informacji i lista luk; wskazane źródła |
+| Uzupełnienie perspektywy użytkowników | Rozmowa z konsultantami i przegląd przykładów z technikiem | Przykłady trudności; oczekiwania oddzielone od decyzji |
+| Warsztat 4 września | Warsztat z Anną, Ewą, Martą i Piotrem | Wyjaśnienia, decyzje w mandatach uczestników i kwestie otwarte |
+| Potwierdzenie wyników | Przegląd zapisów z właściwymi osobami | Jawne potwierdzenia; brak odpowiedzi nie oznacza zgody |
+| Opis wymagań i wariantów | Analiza reguł, model procesu, specyfikacja, weryfikacja i walidacja | Propozycje z powiązaniami do źródeł; luki i uwagi do rozwiązania |
+| Rekomendacja | Ocena wartości, ograniczeń i planu pomiaru | Rekomendacja pilotażu, dalszej analizy albo rezygnacji z AI |
 
-Gotowy przykład referencyjny do wykorzystania od modułu 3. Propozycja sposobu prowadzenia analizy; nie dowód zatwierdzenia przez interesariuszy. Podstawa: SP-01–03 w plikach 01–03. Wszystkie role i zdarzenia są fikcyjne.
+Szczegółowe rozłożenie pięciu dni i priorytety należy uzgodnić. Sprawy wymagające IT lub ochrony danych mogą pozostać warunkami rekomendacji; nie zakładamy ich rozstrzygnięcia na warsztacie. Po każdym przeglądzie aktualizujemy plan według pozostałych luk i dostępnego czasu.
+
+Podstawa: [brief](../01-brief-projektu.md), [kontekst projektu](../07-kontekst-projektu.md), [interesariusze](../08-interesariusze.md).

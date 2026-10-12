@@ -1,12 +1,16 @@
-# Podejście do współpracy z interesariuszami — przykład referencyjny
+# Podejście do współpracy z interesariuszami — przykład
 
-| Interesariusz | cel i temat współpracy | proponowana forma | moment/częstotliwość do uzgodnienia | podstawa źródłowa | pytanie do potwierdzenia |
-| --- | --- | --- | --- | --- | --- |
-| Anna Lis | Potrzeba, wartość i pomiar sukcesu | Rozmowa oraz przegląd kryteriów | Przed ustaleniem zakresu i oceną pilotażu; propozycja | SP-01; SP-02 Anna | Kto zatwierdzi progi? |
-| Ewa Krawiec | Reguły i granice odpowiedzialności | Przegląd reguł oraz udział w warsztacie | Przy wyjaśnianiu procesu i zmian; propozycja | SP-03 właścicielka reguł | Mandat i ścieżka zmiany reguł |
-| Marta i konsultanci | Nakład pracy, rozbieżne oczekiwania, obawy | Warsztat na przykładach i przegląd proponowanego wsparcia | Przed projektowaniem wymagań; propozycja | SP-02 Marta i konsultanci | Jak sprawdzą wynik i zgłoszą błąd? |
-| Piotr i technicy | Jakość informacji przy przekazaniu | Przegląd przykładów objawów i braków | Przy kryteriach i ocenie propozycji; propozycja | SP-02 Piotr i technicy | Co uznają za jednoznaczny opis? |
+Fikcyjny przykład do wykorzystania od modułu 3. Propozycja analityczna oparta na plikach 01–08; nie jest zatwierdzonym planem SerwisPlus. Stan przed warsztatem 4 września.
 
+| Kto | Po co i jak angażować | Moment / ograniczenie | Potwierdzenie |
+| --- | --- | --- | --- |
+| Anna | Krótkie podsumowanie wariantów celu, zakresu i pomiaru; rozmowa o decyzjach | Pierwsze 20 min warsztatu, potem e-mail | Jawne potwierdzenie decyzji w jej zakresie |
+| Ewa | Przegląd procesu i reguł, warsztat, przegląd wyniku | Cały warsztat i dodatkowe 30 min | Potwierdzenie informacji procesowej i decyzji o regułach |
+| Marta i konsultanci | Przykłady pracy, 20-minutowa rozmowa, uwagi do propozycji wsparcia | Dwie osoby i termin przez Martę | Sprawdzenie, czy opisano ich perspektywę, nie zgoda na cały projekt |
+| Piotr i technik | Przegląd objawów, braków i użyteczności wyniku | Przykłady przed warsztatem; Piotr przez całe spotkanie | Merytoryczne uwagi do jakości przekazania |
+| IT i ochrona danych | Konsultacja dopuszczenia danych i narzędzia | Po wskazaniu osób przez Annę | Stanowisko i ograniczenia, bez przypisywania fikcyjnej zgody |
+| Klienci | Rozważenie potrzeby pozyskania ich perspektywy | Kontakt dopiero po uzgodnieniu | Potrzeby pozostają luką do czasu pozyskania |
 
+Aleksandra zbiera rozbieżności przed spotkaniem i przesyła krótkie materiały do przygotowania. Przy konflikcie odróżnia oczekiwania od reguł i kieruje decyzję do właściwej osoby. Po spotkaniu wskazuje, które fragmenty notatki wymagają czyjego potwierdzenia.
 
-Gotowy przykład referencyjny do wykorzystania od modułu 3. Propozycja sposobu prowadzenia analizy; nie dowód zatwierdzenia przez interesariuszy. Podstawa: SP-01–03 w plikach 01–03. Wszystkie role i zdarzenia są fikcyjne.
+Podstawa: [głosy interesariuszy](../02-glosy-interesariuszy.md), [kontekst](../07-kontekst-projektu.md), [role i dostępność](../08-interesariusze.md).

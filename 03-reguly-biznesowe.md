@@ -1,5 +1,9 @@
-# SP-03. Proces i reguły obowiązujące od 1 sierpnia 2026
-Status: zatwierdzone reguły stanu bieżącego Właścicielka reguł: Ewa Krawiec
+# Proces i reguły obowiązujące od 1 sierpnia 2026
+
+Dawne oznaczenie: SP-03. Numery 1–8 identyfikują reguły.
+Status: zatwierdzone reguły stanu bieżącego w fikcyjnym scenariuszu.
+Właścicielka reguł: Ewa Krawiec.
+
 1. Każde zgłoszenie jest rejestrowane, nawet gdy jest niekompletne.
 2. Do pierwszego przekazania technikom wymagane są cztery ustalone pola: identyfikator firmy, e-mail osoby kontaktowej, model urządzenia i obserwowalny objaw.
 3. Numer seryjny jest opcjonalny na tym etapie.
@@ -11,4 +15,4 @@ Status: zatwierdzone reguły stanu bieżącego Właścicielka reguł: Ewa Krawie
 
 
 
-Materiał fikcyjny. Wersja szkoleniowa 11.10.2026. Stan wejściowy modułu 3, przed SP-04.
+Materiał fikcyjny. Wersja szkoleniowa 11.10.2026. Stan przed warsztatem; do modułów 2–4. Późniejsze decyzje w pliku 15 nie zmieniają tych ośmiu reguł.

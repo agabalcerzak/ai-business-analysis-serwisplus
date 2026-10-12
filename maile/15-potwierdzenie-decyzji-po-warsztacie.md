@@ -1,4 +1,6 @@
-# SP-04 — mail z potwierdzeniem decyzji po warsztacie
+# Potwierdzone decyzje po warsztacie
+
+Dawne oznaczenie: SP-04. To plik 15, nie plik 04 z architekturą.
 
 Materiał fikcyjny. Wiadomości i adresy w domenie `.example` powstały do szkolenia; nie są eksportem prawdziwej skrzynki. Nagłówki są elementem scenariusza.
 
@@ -14,7 +16,7 @@ Przekazuję zapis decyzji z przypisaniem zatwierdzających i zakresu ich decyzji
 
 Data: 2026-09-04 Status: decyzje zatwierdzone w podanych zakresach
 D01 / Anna: pilot obejmuje ekstrakcję danych, kontrolę kompletności, podsumowanie i szkic prośby o wyjaśnienie. Diagnoza, wycena, termin i automatyczna wysyłka pozostają poza zakresem.
-D02 / Ewa: pozostają cztery pola wymagane z SP-03; numer seryjny jest opcjonalny; brak pola nie blokuje rejestracji.
+D02 / Ewa: pozostają cztery pola wymagane z pliku 03-reguly-biznesowe.md; numer seryjny jest opcjonalny; brak pola nie blokuje rejestracji.
 D03 / Ewa: wynik pokazuje wartości czterech pól, ich źródła oraz status: ustalone, brak albo sprzeczność. Nieobecnej wartości nie uzupełnia się domysłem.
 D04 / Ewa: przy braku lub sprzeczności AI przygotowuje pytania tylko do nierozstrzygniętych pól. Konsultant zatwierdza i wysyła wiadomość.
 D05 / Ewa: przy kompletności AI przygotowuje podsumowanie i propozycję „gotowe do przekazania”. Przekazuje człowiek.
@@ -26,4 +28,4 @@ Kwestie otwarte: próg jakości, porównywalność pomiaru, narzędzie i budżet
 
 Etap udostępnienia do pracy: Po zakończeniu warsztatu; do modułu 4. Fikcyjny materiał z istniejącego pakietu ćwiczeń SerwisPlus, bez klucza trenerskiego.
 
-To kanoniczny zapis SP-04 w tym pakiecie. Nie jest wynikiem spotkania przeprowadzonego przez uczestników. Otwórz na sygnał prowadzącej po ćwiczeniu modułu 3.
+To źródło decyzji do modułu 4. Nie jest wynikiem pracy uczestników. Nie używaj go do przygotowania planu wcześniejszego warsztatu w module 3 ani jego ponowienia w module 6.
