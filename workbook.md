@@ -1,7 +1,7 @@
 # Warsztat SerwisPlus — instrukcje i prompty krok po kroku
 
 AI w analizie biznesowej · Agnieszka Balcerzak · InProgress.
-Workbook uczestnika. Pracujecie na fikcyjnym przypadku SerwisPlus. Do ćwiczeń w obu dniach wystarczy bezpłatny czat AI.
+Workbook uczestnika do pracy z case study SerwisPlus w czacie AI i generatorach profili. Zawiera materiały wejściowe, instrukcje, prompty oraz sposób sprawdzania i zapisywania wyników.
 
 
 ## Jak korzystać z pakietu
@@ -12,20 +12,17 @@ W nowej rozmowie podaj cel zadania, wskazane źródła i prompt. Tekst źródła
 
 ## Gdzie zapisywać rezultaty
 
-Po pobraniu pakietu zapisuj wyniki w jego folderze `rezultaty/`, np. `m03-grupa-a-plan-warsztatu.md`. Nie musisz publikować ich na GitHub ani udostępniać profili osobistych. Wspólny zapis na tablicy też jest dopuszczalny; do modułu 6 zachowaj kopię wyniku M3.
+Po pobraniu pakietu zapisuj wyniki w jego folderze `rezultaty/`, np. `m03-grupa-a-plan-warsztatu.md`. Nie musisz publikować ich na GitHub ani udostępniać profili osobistych. Do modułu 6 zachowaj kopię wyniku M3.
 
 Każdy wynik oznacz: moduł, grupa, stan źródeł, status „roboczy — do przeglądu”. Zachowaj prompt, wskazane źródła, pierwszą odpowiedź, uwagi człowieka i wersję po poprawie. Zapisz dostępny model oraz czas pracy łącznie z kontrolą.
 
 | Moduł | Co zachować w rezultatach |
 | --- | --- |
-| 1 | Mapa własnej pracy na Miro i warunki wykorzystania AI |
-| 2 | Mapa kontekstu oraz plan grupy, poprawki ze źródłami i kwestie do uzgodnienia |
+| 2 | Plan grupy wygenerowany i poprawiony w czacie, uwagi ze źródłami i kwestie do uzgodnienia |
 | 3 | Plan warsztatu, prompt i pełny zapis próby — baza do M6 |
 | 4 | 4–6 wymagań, dwa prompty przeglądu, uwagi i poprawiona wersja |
 | 5 | Dwa robocze profile; możesz zachować je wyłącznie u siebie |
-| 6 | Porównanie, mapa kroków, instrukcja AGENTS.md i potrzebne pliki, zapis testu i poprawki |
-| 7 | Własne obserwacje i pytania o aktualizację wiedzy |
-| 8 | Wspólny kolaż i własny następny krok |
+| 6 | Porównanie odpowiedzi, instrukcja AGENTS.md i potrzebne pliki, zapis testu i poprawki |
 
 Przykłady 09–12 w `rezultaty/` otwieraj od M3. Szkic 17 jest celowo wadliwy i służy tylko jako wariant rezerwowy wskazany przez prowadzącą. Nie są to rezultaty Waszej pracy ani zatwierdzone rozwiązania SerwisPlus.
 
@@ -35,35 +32,9 @@ Pracujemy na roboczych rezultatach. W ramach zadania możesz eksperymentować, s
 
 Zapisuj źródło i status informacji. Najpierw wykonaj wskazany krok samodzielnie, następnie skorzystaj z AI i sprawdź wynik. Nie traktuj symulacji jako decyzji interesariusza. Materiały późniejszych etapów otwieraj na sygnał prowadzącej.
 
-## Wprowadzenie — poznanie grupy
-
-Na Miro wpisz rolę, doświadczenie z AI i oczekiwania. Sprawdź, czy wspólne podsumowanie oddaje Twoją wypowiedź; uzupełnij pominięcia.
-
-## Moduł 1 — AI w pracy analityka
-W parze wybierzcie znany fragment pracy. Macie 12 minut na mapę: wejście → czynności → wyjście i odbiorca. Przy 9 osobach pracujcie w trzech parach i jednej trójce; przy 20 w dziesięciu parach.
-
-| Wejście | Czynności | Wyjście i odbiorca |
-| --- | --- | --- |
-| Uzupełnij | Uzupełnij | Uzupełnij |
-
-Dopiszcie kryteria odbioru: po czym poznacie, że dobrze wykonaliście tę pracę? Zapiszcie konkretne, sprawdzalne warunki, bez ograniczenia ich liczby.
-
-Podczas omówienia odpowiedzcie: gdzie w pracy analityka warto korzystać z AI, a gdzie absolutnie nie? Uzasadnijcie odpowiedzi przykładami.
-
 ## Moduł 2 — Projektowanie kontekstu i przepływu promptów
 
-### Ćwiczenie 1 — co jest kontekstem dla procesu analitycznego?
-
-Pracujcie w czterech grupach. Przy 9 osobach: trzy pary i jedna trójka.
-
-1. Przeprowadźcie burzę mózgów na podstawie własnych doświadczeń.
-2. Zapisujcie pomysły na Miro: jedna myśl na karteczce, bez limitu liczby pomysłów.
-3. Połączcie podobne pomysły i omówcie, do czego analityk potrzebuje tych informacji.
-4. Porównajcie mapy grup i uzupełnijcie wspólny obraz kontekstu.
-
-**Rezultat:** mapa informacji potrzebnych do prowadzenia analizy.
-
-### Ćwiczenie 2 — cztery grupy, cztery plany
+### Przygotowanie planu w czacie
 
 Źródła: [brief](01-brief-projektu.md), [wypowiedzi](02-glosy-interesariuszy.md), [reguły](03-reguly-biznesowe.md), karty 04–07 i [interesariusze](08-interesariusze.md). Wszystkie grupy pracują na tym samym stanie projektu, przed późniejszymi decyzjami SP-04.
 
@@ -81,10 +52,9 @@ Przy innej liczebności zachowajcie cztery grupy i rozdzielcie osoby możliwie r
 3. Użyjcie tylko właściwego dla grupy prompta P2.
 4. Sprawdźcie wynik ze źródłami. P3 może pomóc w przeglądzie; sami zweryfikujcie jego uwagi.
 5. Poprawcie plan za pomocą P4. Możecie zmieniać instrukcję i eksperymentować.
-6. Wklejcie na Miro plan po przeglądzie, najważniejsze poprawki oraz kwestie do uzgodnienia.
-7. Wspólnie porównajcie cztery plany: czy pasują do siebie, czego brakuje i co trzeba uzgodnić?
+6. Zapiszcie plan po przeglądzie w pliku Markdown w folderze `rezultaty/`. Zachowajcie prompt, poprawki i kwestie do uzgodnienia.
 
-**Rezultat:** cztery robocze plany, sprawdzone przez grupy. Nowe rozwiązania pozostają propozycjami.
+**Rezultat grupy:** roboczy plan po sprawdzeniu i poprawieniu odpowiedzi AI. Nowe rozwiązania pozostają propozycjami.
 
 Gotowe przykłady 09–12 otwierajcie od modułu 3, po przygotowaniu własnych planów.
 
@@ -158,7 +128,7 @@ Pytanie badawcze: [pytanie]. Zaproponuj źródła pierwotne. Dla każdego wskaż
 ## Moduł 3 — Przygotowanie spotkań i współpracy z interesariuszami
 Wykonajcie zadanie opisane poniżej. Używajcie materiałów 01–12 oraz notatek R01–R03, bez późniejszych decyzji SP-04. Rezultat: cel, uczestnicy z uzasadnieniem, agenda 50 minut i 10 minut rezerwy, pytania wynikające z luk i sposób potwierdzenia notatki. Zachowajcie prompt, kontekst, pierwotny wynik i wersję po kontroli do modułu 6. Zapiszcie czas łącznie z przeglądem i nazwę dostępnego modelu. Plik 15 otwórzcie po zakończeniu pracy nad planem, przed modułem 4.
 
-W module 3 macie 20 minut na pełny roboczy plan, sprawdzenie źródeł i poprawę. W ramach zadania możecie testować własny wariant instrukcji lub kontekstu i korzystać z konsultacji. Podczas omówienia podzielcie się doświadczeniami, poprawkami oraz pytaniami, których nie udało się rozstrzygnąć.
+W module 3 macie 20 minut na pełny roboczy plan, sprawdzenie źródeł i poprawę. W ramach zadania możecie testować własny wariant instrukcji lub kontekstu i korzystać z konsultacji.
 
 ### Wejście i oczekiwany rezultat
 Wejście: brief, wypowiedzi, reguły, robocza architektura, słownik, luki dotyczące polityk oraz podejścia.
@@ -194,10 +164,8 @@ Przygotowuję warsztat SerwisPlus. Na podstawie załączonych materiałów 01–
 2. Połowa B pisze dwa prompty: weryfikacja jakości zapisu i walidacja względem potrzeby, wartości oraz zakresu. Kryteria ustala przed otrzymaniem wyniku A.
 3. Przygotowanie trwa 15 minut. Następnie A przekazuje wymagania B; obie grupy dysponują tym samym kontekstem.
 4. Przez 15 minut B sprawdza wymagania, a A uzasadnia własne zapisy źródłami. Uwagi AI wymagają sprawdzenia. Ocena: ID, kryterium, dowód, problem i proponowane działanie. Brak podstawy do oceny zapisujemy jawnie.
-5. Po 5-minutowej przerwie macie 10 minut na uzgodnienie i naniesienie poprawek. A uzasadnia przyjęcie lub odrzucenie uwag, B koryguje nietrafne oceny i prompty. W tym kroku możecie sprawdzić własny wariant lub skorzystać z konsultacji. Przegląd obejmuje cały zestaw 4–6 wymagań; na forum pokazujecie wybrany przykład.
-6. Pokażcie jeden przykład: źródło → wymaganie → uwaga → poprawka lub uzasadnione odrzucenie uwagi. Uzgodnienie w grupie nie jest zatwierdzeniem biznesowym.
-
-7. Podczas przeglądu modelu sprawdźcie zgodność warunków i działań ze źródłami.
+5. Po 5-minutowej przerwie macie 10 minut na uzgodnienie i naniesienie poprawek. A uzasadnia przyjęcie lub odrzucenie uwag, B koryguje nietrafne oceny i prompty. W tym kroku możecie sprawdzić własny wariant lub skorzystać z konsultacji. Przegląd obejmuje cały zestaw 4–6 wymagań.
+6. Zapiszcie wymagania, prompty, uwagi oraz poprawioną wersję w `rezultaty/`. Zachowajcie powiązanie: źródło → wymaganie → uwaga → poprawka lub uzasadnione odrzucenie uwagi. Uzgodnienie w grupie nie jest zatwierdzeniem biznesowym.
 
 9 osób: A — 4, B — 5. Przy 20 osobach dwie pary zespołów A/B, po 5 osób. Role: operator, źródła, jakość zapisu, kontekst i wartość, zapis wyników. Gdy osób jest mniej, role łączymy.
 
@@ -237,24 +205,36 @@ Rezultat: dwa wstępne profile i rozpoznanie różnicy między profilem, źród�
 
 Wracamy do przygotowania planu warsztatu z modułu 3. Zachowujemy stan projektu sprzed SP-04; późniejszych decyzji nie używamy do przygotowania wcześniejszego spotkania.
 
-1. Zapiszcie hipotezę: co poprawi dodatkowy kontekst sposobu pracy? Wybierzcie kryteria przed próbą. Baza z modułu 3 już zawiera kontekst projektu.
-2. Porównajcie próbę z dodatkowym kontekstem z bazą M3. Zachowajcie zadanie, stan projektu, kryteria i ten sam dostępny model. Pierwsze 15 minut: próba i kontrola; następne 10 do wyboru: wariant, powtórzenie, dokończenie lub konsultacja. Odtworzenie bazy w nowej rozmowie jest opcjonalne; korzystając z zapisanego wyniku, oznaczcie ograniczenie porównania.
-3. Rozłóżcie przygotowanie warsztatu na części na Miro, a następnie określcie kolejność i zależności. Czas: 20 minut.
-4. Po krótkiej przerwie opiszcie wejścia i źródła, wyjścia i format, kryteria odbioru oraz dowody ich spełnienia. Dodajcie poprawkę, limit prób i sytuacje przekazania człowiekowi. Czas: 25 minut.
-5. Przy pomocy darmowego czatu przekształćcie mapę w AGENTS.md. Dodajcie tylko potrzebny szablon wyniku lub checklistę. Sprawdźcie zgodność instrukcji z mapą i odwołania do plików. Pierwsze 20 minut: zapis i kontrola instrukcji. Ostatnie 10: własna próba, porównanie wariantu, konsultacja lub dokończenie. Potem lunch. Dla całości i kroków zachowajcie wejścia, wyjścia, kryteria odbioru, dowody kontroli, pętlę poprawy, warunki zatrzymania i przekazanie człowiekowi.
-6. Po lunchu przeprowadźcie próbę w czacie: wykonanie → kontrola → poprawka → ponowna kontrola. W 20 minut wykonajcie próbę, ocenę, poprawkę i ponowną kontrolę, jeśli potrzebna. Przy poprawnym wyniku sprawdźcie wariant z brakiem lub sprzecznością. Wybieracie szczegóły próby i możecie korzystać z konsultacji. Zwykły czat otrzymuje instrukcje jawnie; nazwa pliku nie powoduje uruchomienia agenta.
-7. Przy dobrym wyniku przetestujcie wariant z brakiem informacji lub sprzecznością. Nie wymyślajcie rozstrzygnięcia. Odbiór pozostaje po stronie człowieka.
-8. Porównajcie obserwowane wykonanie procedury z Waszymi kryteriami. Oceńcie dowody i wskażcie, co wymaga kolejnej iteracji.
 
-Rezultat merytoryczny: procedura dla całego zadania i jego kroków, próba, ocena oraz uzasadniona poprawka i ponowna kontrola albo właściwe zatrzymanie. Przy dobrym wyniku sprawdzacie trudniejsze wejście. Nie trzeba wykonywać wszystkich możliwych wariantów. Podzielcie się obserwacjami z prób.
+### 1. Porównanie odpowiedzi z dodatkowym kontekstem
 
-Rezultat: przejrzana instrukcja, potrzebne pliki i zapis testu. Brak danych, decyzji lub postępu powoduje zatrzymanie i pytanie do człowieka. Agent nie może sam obniżać kryteriów. Jedna udana próba nie dowodzi powtarzalności.
+1. Otwórzcie zapis próby z modułu 3: zadanie, prompt, źródła, wynik i kryteria.
+2. Zapiszcie hipotezę: co poprawi dodatkowy kontekst sposobu pracy? Wybierzcie kryteria przed próbą.
+3. W nowej rozmowie podajcie to samo zadanie i stan źródeł, dodając wybrany profil lub instrukcje sposobu pracy. Korzystajcie z tego samego dostępnego modelu.
+4. Porównajcie odpowiedź z bazą M3 według tych samych kryteriów. Sprawdźcie źródła i zapiszcie poprawę, pogorszenie oraz ograniczenia porównania.
+5. Możecie przetestować kolejny wariant. Zachowajcie prompty, użyty kontekst i wyniki w `rezultaty/`.
 
-9 osób: trzy trójki; 20 osób: pięć grup po cztery. Operator, kontrola źródeł i kontrola kryteriów; czwarta osoba testuje i zapisuje obserwacje. Konsultacje odbywają się podczas pracy.
+### 2. Zapisanie procedury w plikach
+
+**Wejście do czatu:** przygotowany opis kroków i zależności, wejścia, wyjścia, kryteria odbioru, limit prób, warunki zatrzymania oraz lista dostępnych plików.
+
+1. Wklejcie opis i kryteria do czatu wraz z promptem poniżej.
+2. Sprawdźcie, czy wygenerowana instrukcja zachowuje Wasze ustalenia dla całego zadania i każdego kroku.
+3. Poprawcie brakujące lub błędne elementy. Sprawdźcie odwołania do plików.
+4. Zapiszcie treść jako `AGENTS.md` oraz tylko potrzebny szablon wyniku lub checklistę w swoim lokalnym pakiecie.
+
+### 3. Test procedury w czacie
+
+1. W nowej rozmowie wklejcie instrukcję, źródła i potrzebne pliki. Użyjcie prompta „Próba procedury w bezpłatnym czacie”.
+2. Sprawdźcie wynik i dowody spełnienia kryteriów. Zlećcie poprawkę i ponowną kontrolę w ustalonym limicie.
+3. Przy poprawnym wyniku sprawdźcie wariant z brakiem informacji lub sprzecznością. Nie wymyślajcie rozstrzygnięcia.
+4. Zachowajcie pierwszą odpowiedź, ocenę, poprawioną wersję albo uzasadnienie zatrzymania.
+
+**Rezultat:** instrukcja, potrzebne pliki i zapis testu. Brak danych, decyzji lub postępu oznacza zatrzymanie i pytanie do człowieka. Kryteriów nie wolno obniżać, aby zakończyć pracę. Jedna udana próba nie dowodzi powtarzalności.
 
 ### Prompt do zapisania procedury w AGENTS.md
 
-Użyj dopiero po samodzielnym rozłożeniu zadania na kroki i ustaleniu kryteriów.
+Do prompta dołącz przygotowany opis kroków i ustalone kryteria.
 
 ```text
 Przekształć poniższą mapę pracy i ustalone kryteria w treść pliku AGENTS.md po polsku. Zadanie: przygotowanie planu warsztatu SerwisPlus w stanie sprzed SP-04. Nie wykonuj jeszcze zadania i nie zmieniaj naszych kryteriów.
@@ -278,31 +258,3 @@ Zastosuj poniższą instrukcję do podanych źródeł. Wykonaj zadanie i pokaż 
 ```
 
 Człowiek sprawdza wskazane dowody. Zachowaj pierwszą odpowiedź, wynik kontroli i kolejną wersję albo uzasadnienie zatrzymania.
-
-## Moduł 7 — Organizowanie i aktualizowanie wiedzy analitycznej
-
-Podczas wspólnego przeglądu SerwisPlus zapiszcie własne obserwacje i pytania:
-
-- Co potwierdza źródło, a co pozostaje propozycją?
-- Co zmienia nowa informacja i które ustalenia pozostają aktualne?
-- Na jakie dokumenty, wymagania lub zadania wpływa zmiana?
-- Gdzie potrzebna jest decyzja człowieka?
-
-Materiał: [CHG-01 — zmiana kolejek](maile/18-zmiana-kolejek-priority-standard.md). Odróżnijcie datę analizy 8 września od wejścia zmiany 21 września o 09:00. [Wejścia testowe](19-proby-po-zmianie.md) dotyczą stanu po wejściu zmiany.
-
-Nie ma dodatkowego obowiązkowego rezultatu do oddania.
-
-## Moduł 8 — Jakość, skuteczność i dalszy rozwój
-
-Rozmawiamy o jakości, współpracy z AI, pracy głębokiej i płytkiej, odpowiedzialności, rozwoju oraz mentoringu. Wracamy do doświadczeń i oczekiwań z początku szkolenia.
-
-Na końcu: 2 minuty refleksji, 5 minut tworzenia kolażu, 3 minuty oglądania i 15 minut rozmowy. Cztery pola:
-
-- Mój nastrój na przyszłość.
-- Co chcę zachować i rozwijać.
-- Jak chcę współpracować z AI: delegowanie, współpraca, granice i odpowiedzialność.
-- Mój następny krok i potrzebne wsparcie: jeden eksperyment, sposób oceny korzyści i pomoc, której potrzebuję.
-
-Możesz użyć słów, kolorów, symboli lub obrazów. Nie ma wymogu optymistycznej odpowiedzi ani ujawniania osobistych informacji. Przy 9 osobach każdy jest zaproszony do jednego zdania; przy 20 rozmawiamy wokół wspólnych tematów. Można pominąć wypowiedź.
-
-Zachowaj własny następny krok i materiały, które chcesz wykorzystać ponownie.
