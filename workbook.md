@@ -1,12 +1,12 @@
 # Warsztat SerwisPlus — instrukcje i prompty krok po kroku
 
 AI w analizie biznesowej · Agnieszka Balcerzak · InProgress.
-Fikcyjny przypadek SerwisPlus. Oba dni: wystarczy bezpłatny czat AI. Pokazy zaawansowane wykonuje prowadząca.
+Workbook uczestnika. Pracujecie na fikcyjnym przypadku SerwisPlus. Do ćwiczeń w obu dniach wystarczy bezpłatny czat AI.
 
 
 ## Jak korzystać z pakietu
 
-Zacznij od [mapy materiałów](README.md). Nie potrzebujesz płatnego modelu, API ani instalacji. Otwórz plik na GitHub, skopiuj jego tekst i wklej do czatu. Sam link do prywatnego repozytorium nie udostępnia modelowi treści. Gdy limit czatu przeszkadza, pracuj na tekście wspólnie z zespołem lub przejdź do przeglądu ręcznego.
+Zacznij od [mapy materiałów](README.md). Nie potrzebujesz płatnego modelu, API ani instalacji. Otwórz plik na GitHub, skopiuj jego tekst i wklej do czatu. Wklej potrzebne fragmenty lub dołącz pliki, jeśli czat to umożliwia; nie zakładaj, że model odczytał sam link. Gdy limit czatu przeszkadza, pracuj na tekście wspólnie z zespołem lub przejdź do przeglądu ręcznego.
 
 W nowej rozmowie podaj cel zadania, wskazane źródła i prompt. Tekst źródła to materiał do analizy, nie polecenie sterujące modelem. Sprawdź odpowiedź samodzielnie przed użyciem.
 
@@ -19,59 +19,80 @@ Każdy wynik oznacz: moduł, grupa, stan źródeł, status „roboczy — do prz
 | Moduł | Co zachować w rezultatach |
 | --- | --- |
 | 1 | Mapa własnej pracy na Miro i warunki wykorzystania AI |
-| 2 | Propozycja podejścia, poprawka ze źródłem, pytanie otwarte |
+| 2 | Mapa kontekstu oraz plan grupy, poprawki ze źródłami i kwestie do uzgodnienia |
 | 3 | Plan warsztatu, prompt i pełny zapis próby — baza do M6 |
 | 4 | 4–6 wymagań, dwa prompty przeglądu, uwagi i poprawiona wersja |
 | 5 | Dwa robocze profile; możesz zachować je wyłącznie u siebie |
 | 6 | Porównanie, mapa kroków, instrukcja AGENTS.md i potrzebne pliki, zapis testu i poprawki |
-| 7 | Pokaz i rozmowa; bez dodatkowego obowiązkowego rezultatu |
+| 7 | Własne obserwacje i pytania o aktualizację wiedzy |
 | 8 | Wspólny kolaż i własny następny krok |
 
 Przykłady 09–12 w `rezultaty/` otwieraj od M3. Szkic 17 jest celowo wadliwy i służy tylko jako wariant rezerwowy wskazany przez prowadzącą. Nie są to rezultaty Waszej pracy ani zatwierdzone rozwiązania SerwisPlus.
 
 ## Zasady pracy
 
-Pracujemy na roboczych rezultatach. W ramach zadania możesz eksperymentować, skonsultować trudność albo spokojnie dopracować wynik; zachowujemy wszystkie kroki merytoryczne. Nie trzeba wykonywać wszystkich wariantów ani wypełniać każdego pola. Różne tempo pracy jest w porządku. Wymieniamy doświadczenia, a prowadząca pokazuje i uzasadnia przykładowe rozwiązania oraz symuluje ich zastosowanie.
+Pracujemy na roboczych rezultatach. W ramach zadania możesz eksperymentować, skonsultować trudność albo spokojnie dopracować wynik; zachowujemy wszystkie kroki merytoryczne. Nie trzeba wykonywać wszystkich wariantów ani wypełniać każdego pola. Różne tempo pracy jest w porządku. Dzielcie się doświadczeniami: co zadziałało, co wymagało poprawy i czego nadal nie wiecie.
 
 Zapisuj źródło i status informacji. Najpierw wykonaj wskazany krok samodzielnie, następnie skorzystaj z AI i sprawdź wynik. Nie traktuj symulacji jako decyzji interesariusza. Materiały późniejszych etapów otwieraj na sygnał prowadzącej.
 
 ## Wprowadzenie — poznanie grupy
 
-Na Miro wpisz rolę, doświadczenie z AI i oczekiwania. Prowadząca może podsumować wpisy z pomocą AI; wspólnie sprawdzacie, czy wynik oddaje wypowiedzi.
+Na Miro wpisz rolę, doświadczenie z AI i oczekiwania. Sprawdź, czy wspólne podsumowanie oddaje Twoją wypowiedź; uzupełnij pominięcia.
 
-### Prompt prowadzącej: P0 — synteza poznania grupy
-
-```text
-Podsumuj wyłącznie zaznaczone wpisy uczestników: role, doświadczenia z AI i oczekiwania. Pokaż wspólne wątki oraz pojedyncze potrzeby, których nie wolno zgubić. Nie oceniaj poziomu kompetencji ani nie wnioskuj o osobie poza treścią wpisu. Jeśli podajesz liczby, policz wpisy i wyjaśnij mianownik. Maksymalnie 5 punktów. Zakończ pytaniem o pominięcia i błędne interpretacje.
-```
-
-
-## Moduł 1 — mapa własnej pracy
+## Moduł 1 — AI w pracy analityka
 W parze wybierzcie znany fragment pracy. Macie 12 minut na mapę: wejście → czynności → wyjście i odbiorca. Przy 9 osobach pracujcie w trzech parach i jednej trójce; przy 20 w dziesięciu parach.
 
 | Wejście | Czynności | Wyjście i odbiorca |
 | --- | --- | --- |
 | Uzupełnij | Uzupełnij | Uzupełnij |
 
-Podczas omówienia wskażcie zastosowanie AI, warunek użycia, sposób sprawdzenia oraz decyzję człowieka. Do mapy wrócicie pod koniec modułu, uwzględniając wartość, ryzyko i wykonalność.
+Dopiszcie kryteria odbioru: po czym poznacie, że dobrze wykonaliście tę pracę? Zapiszcie konkretne, sprawdzalne warunki, bez ograniczenia ich liczby.
 
-## Moduł 2 — czarna skrzynka i podejścia
-Źródła: [brief](01-brief-projektu.md), [wypowiedzi](02-glosy-interesariuszy.md), [reguły](03-reguly-biznesowe.md) oraz karty 04–07.
+Podczas omówienia odpowiedzcie: gdzie w pracy analityka warto korzystać z AI, a gdzie absolutnie nie? Uzasadnijcie odpowiedzi przykładami.
 
-1. Wspólnie określcie wejście, wyjście, odbiorcę i sprawdzalne kryteria odbioru. Oddzielcie je od mierników sukcesu inicjatywy.
-2. Obserwujcie demonstrację podejścia do prowadzenia analizy przez prowadzącą.
-3. Zespół A przygotowuje Podejście do współpracy z interesariuszami, B — Podejście do podejmowania decyzji, C — Podejście do zarządzania informacją. Przy większej grupie pracują po dwa zespoły na temat.
-4. Podzielcie 15 minut: 3 minuty na źródła, 5 na pracę z AI, 5 na kontrolę i 2 na wybór wniosku. Role: operator czatu, kontrola źródeł, kontrola kryteriów.
-5. Użyjcie promptów P1–P4 poniżej. Sprawdźcie cel podejścia, ślad źródłowy, status propozycji, zgodność z regułami i jawność luk.
-6. Zaprezentujcie jedną propozycję, jedną poprawkę popartą źródłem i jedno pytanie otwarte.
+## Moduł 2 — Projektowanie kontekstu i przepływu promptów
 
-Gotowe podejścia 09–12 wykorzystujcie od modułu 3. Nie są rozwiązaniem do kopiowania podczas ćwiczenia modułu 2.
+### Ćwiczenie 1 — co jest kontekstem dla procesu analitycznego?
+
+Pracujcie w czterech grupach. Przy 9 osobach: trzy pary i jedna trójka.
+
+1. Przeprowadźcie burzę mózgów na podstawie własnych doświadczeń.
+2. Zapisujcie pomysły na Miro: jedna myśl na karteczce, bez limitu liczby pomysłów.
+3. Połączcie podobne pomysły i omówcie, do czego analityk potrzebuje tych informacji.
+4. Porównajcie mapy grup i uzupełnijcie wspólny obraz kontekstu.
+
+**Rezultat:** mapa informacji potrzebnych do prowadzenia analizy.
+
+### Ćwiczenie 2 — cztery grupy, cztery plany
+
+Źródła: [brief](01-brief-projektu.md), [wypowiedzi](02-glosy-interesariuszy.md), [reguły](03-reguly-biznesowe.md), karty 04–07 i [interesariusze](08-interesariusze.md). Wszystkie grupy pracują na tym samym stanie projektu, przed późniejszymi decyzjami SP-04.
+
+| Grupa | Plan | Prompt |
+| --- | --- | --- |
+| 1 — osoby 01–02 | Business Analysis Approach: jak przeprowadzimy analizę? | P2-BA |
+| 2 — osoby 03–04 | Stakeholder Engagement Approach: kogo, kiedy i jak zaangażujemy? | P2-SE |
+| 3 — osoby 05–06 | Governance Approach: kto i jak podejmuje decyzje oraz rozpatruje zmiany? | P2-GOV |
+| 4 — osoby 07–09 | Information Management Approach: jak organizujemy, udostępniamy i aktualizujemy informacje? | P2-INFO |
+
+Przy innej liczebności zachowajcie cztery grupy i rozdzielcie osoby możliwie równomiernie.
+
+1. Przeczytajcie źródła potrzebne do Waszego planu.
+2. Wklejcie je do zwykłego darmowego czatu i użyjcie P1, wpisując nazwę Waszego podejścia.
+3. Użyjcie tylko właściwego dla grupy prompta P2.
+4. Sprawdźcie wynik ze źródłami. P3 może pomóc w przeglądzie; sami zweryfikujcie jego uwagi.
+5. Poprawcie plan za pomocą P4. Możecie zmieniać instrukcję i eksperymentować.
+6. Wklejcie na Miro plan po przeglądzie, najważniejsze poprawki oraz kwestie do uzgodnienia.
+7. Wspólnie porównajcie cztery plany: czy pasują do siebie, czego brakuje i co trzeba uzgodnić?
+
+**Rezultat:** cztery robocze plany, sprawdzone przez grupy. Nowe rozwiązania pozostają propozycjami.
+
+Gotowe przykłady 09–12 otwierajcie od modułu 3, po przygotowaniu własnych planów.
 
 ### P1 — przygotowanie zadania
 
 ```text
 Pracujesz na fikcyjnym przypadku SerwisPlus przed warsztatem SP-04. Korzystaj wyłącznie z podanych SP-01–03 i kart K01–K04. Zachowaj status informacji: fakt/reguła ze źródła, wypowiedź lub oczekiwanie, propozycja, luka. Przy twierdzeniu podaj identyfikator źródła i punkt lub rolę mówiącego. Propozycja nie staje się uzgodnieniem. Nie dopisuj zatwierdzonego narzędzia, budżetu, integracji, terminów, progów sukcesu ani uprawnień. Numer seryjny pozostaje opcjonalny; konsultant decyduje o wysyłce i przekazaniu. Brak wymaganych danych blokuje przekazanie, nie rejestrację.
-Cel: przygotować propozycję [nazwa podejścia]. Odbiorca: analityk i interesariusze uzgadniający sposób pracy. Z podanego materiału wypisz do 6 najważniejszych informacji oraz do 3 luk. Oddziel obowiązujące reguły od oczekiwań. Wskaż potrzebne źródła i 3 konkretne kryteria oceny tego podejścia. Jeszcze nie twórz podejścia.
+Cel: przygotować propozycję [nazwa podejścia]. Odbiorca: analityk i interesariusze uzgadniający sposób pracy. Z podanego materiału wypisz do 6 najważniejszych informacji oraz do 3 luk. Oddziel obowiązujące reguły od oczekiwań. Wskaż potrzebne źródła i konkretne kryteria oceny tego podejścia. Jeszcze nie twórz podejścia.
 [WKLEJ ŹRÓDŁA]
 ```
 
@@ -134,10 +155,10 @@ Popraw podejście na podstawie poniższych uwag sprawdzonych przeze mnie. Zachow
 Pytanie badawcze: [pytanie]. Zaproponuj źródła pierwotne. Dla każdego wskaż autora/organizację, tytuł, datę jeśli dostępna, link oraz fragment lub sekcję, która może potwierdzać twierdzenie. Jeśli nie masz dostępu do pełnej treści lub internetu, powiedz to; nie wymyślaj cytatów i linków. Oddziel potwierdzenie twierdzenia od oceny jego przydatności w naszej organizacji. Każde źródło otworzę i sprawdzę samodzielnie.
 ```
 
-## Moduł 3 — przygotowanie warsztatu
-Wykonajcie zadanie opisane poniżej. Używajcie materiałów 01–12 oraz notatek R01–R03, bez późniejszych decyzji SP-04. Rezultat: cel, uczestnicy z uzasadnieniem, agenda 50 minut i 10 minut rezerwy, pytania wynikające z luk i sposób potwierdzenia notatki. Symulacja interesariusza służy wyłącznie przetestowaniu pytań. Zachowajcie prompt, kontekst, pierwotny wynik i wersję po kontroli do modułu 6. Zapiszcie czas łącznie z przeglądem i nazwę dostępnego modelu. Na zakończenie prowadząca pokazuje opracowanie notatki, potwierdzanie ustaleń i komunikację do różnych odbiorców. Plik 15 otwórzcie na jej sygnał.
+## Moduł 3 — Przygotowanie spotkań i współpracy z interesariuszami
+Wykonajcie zadanie opisane poniżej. Używajcie materiałów 01–12 oraz notatek R01–R03, bez późniejszych decyzji SP-04. Rezultat: cel, uczestnicy z uzasadnieniem, agenda 50 minut i 10 minut rezerwy, pytania wynikające z luk i sposób potwierdzenia notatki. Zachowajcie prompt, kontekst, pierwotny wynik i wersję po kontroli do modułu 6. Zapiszcie czas łącznie z przeglądem i nazwę dostępnego modelu. Plik 15 otwórzcie po zakończeniu pracy nad planem, przed modułem 4.
 
-W module 3 macie 20 minut na pełny roboczy plan, sprawdzenie źródeł i poprawę. W ramach zadania możecie testować własny wariant instrukcji lub kontekstu i korzystać z konsultacji. Podczas omówienia wymieniamy doświadczenia; prowadząca pokazuje korektę i symuluje fragment rozmowy. Symulacja nie tworzy decyzji projektu.
+W module 3 macie 20 minut na pełny roboczy plan, sprawdzenie źródeł i poprawę. W ramach zadania możecie testować własny wariant instrukcji lub kontekstu i korzystać z konsultacji. Podczas omówienia podzielcie się doświadczeniami, poprawkami oraz pytaniami, których nie udało się rozstrzygnąć.
 
 ### Wejście i oczekiwany rezultat
 Wejście: brief, wypowiedzi, reguły, robocza architektura, słownik, luki dotyczące polityk oraz podejścia.
@@ -165,7 +186,7 @@ Przygotowuję warsztat SerwisPlus. Na podstawie załączonych materiałów 01–
 
 ```
 
-## Moduł 4 — autorzy i recenzenci wymagań
+## Moduł 4 — Wymagania i wizualizacja ustalonej treści
 
 Źródła: 01–03 oraz [decyzje SP-04](maile/15-potwierdzenie-decyzji-po-warsztacie.md). Pozostałe karty 04–08, przykłady 09–12 i notatki R01–R03 są dostępne jako opracowania pomocnicze. Decyzje SP-04 to fikcyjne wejście do ćwiczenia, nie rezultat przeprowadzonego przez Was spotkania.
 
@@ -175,9 +196,8 @@ Przygotowuję warsztat SerwisPlus. Na podstawie załączonych materiałów 01–
 4. Przez 15 minut B sprawdza wymagania, a A uzasadnia własne zapisy źródłami. Uwagi AI wymagają sprawdzenia. Ocena: ID, kryterium, dowód, problem i proponowane działanie. Brak podstawy do oceny zapisujemy jawnie.
 5. Po 5-minutowej przerwie macie 10 minut na uzgodnienie i naniesienie poprawek. A uzasadnia przyjęcie lub odrzucenie uwag, B koryguje nietrafne oceny i prompty. W tym kroku możecie sprawdzić własny wariant lub skorzystać z konsultacji. Przegląd obejmuje cały zestaw 4–6 wymagań; na forum pokazujecie wybrany przykład.
 6. Pokażcie jeden przykład: źródło → wymaganie → uwaga → poprawka lub uzasadnione odrzucenie uwagi. Uzgodnienie w grupie nie jest zatwierdzeniem biznesowym.
-Prowadząca zbiera doświadczenia i pokazuje własny wariant jednego wymagania, symulując przegląd od kryterium i źródła do poprawki lub pytania.
 
-7. Obserwujcie pokaz modelu. Sprawdźcie zgodność warunków i działań ze źródłami; nie musicie uczyć się składni diagramów.
+7. Podczas przeglądu modelu sprawdźcie zgodność warunków i działań ze źródłami.
 
 9 osób: A — 4, B — 5. Przy 20 osobach dwie pary zespołów A/B, po 5 osób. Role: operator, źródła, jakość zapisu, kontekst i wartość, zapis wyników. Gdy osób jest mniej, role łączymy.
 
@@ -201,19 +221,19 @@ Co pozostaje decyzją człowieka: [...]
 
 Autorzy uwzględniają 4–6 wymagań i ich atrybuty. Recenzenci przygotowują oddzielny prompt weryfikacji zapisu i oddzielny prompt walidacji względem potrzeb, wartości, reguł i zakresu. Dla każdego osądu wymagajcie dowodu ze źródła; przy braku podstawy wynikiem jest pytanie, nie arbitralna ocena.
 
-## Moduł 5 — mój kontekst i dobór informacji
+## Moduł 5 — Budowanie trwałego kontekstu pracy analityka
 
 1. Otwórz [generatory profili](https://www.thebabrain.ai/profile-studio/).
 2. W 5 minut uzupełnij podstawowe pola profil osobisty, a w kolejnych 10 — profil analityka. Wybierz kilka istotnych kompetencji i technik; pozostałe pola możesz uzupełnić później.
 3. Import CV lub wklejenie treści LinkedIn są opcjonalne. Jeśli import sprawia trudność, wpisz najważniejsze informacje ręcznie.
 4. Sprawdź i pobierz pliki Markdown. Nie musisz udostępniać osobistych odpowiedzi. Możesz skorzystać z fikcyjnych [profil osobisty](rezultaty/profil-osobisty-przyklad.md) i [profil analityka](rezultaty/profil-analityka-przyklad.md).
-5. W pokazie doboru kontekstu wskaż fragment przydatny do zadania i fragment zbędny. Do AI przekazuj tylko potrzebne informacje.
+5. Wskaż fragment profilu przydatny do przygotowania warsztatu i fragment zbędny. Do AI przekazuj tylko potrzebne informacje.
 
-Minimum: robocze profile z kilkoma istotnymi odpowiedziami; puste pola są dopuszczalne. Prowadząca pokazuje dobór pakietu kontekstu, symuluje jego użycie w nowej rozmowie i zaprasza do wymiany doświadczeń.
+Minimum: robocze profile z kilkoma istotnymi odpowiedziami; puste pola są dopuszczalne.
 
 Rezultat: dwa wstępne profile i rozpoznanie różnicy między profilem, źródłem, opracowaniem oraz instrukcją. Nie budujemy braina podczas szkolenia.
 
-## Moduł 6 — od sposobu pracy do procedury dla agenta
+## Moduł 6 — Od promptu do powtarzalnej procedury
 
 Wracamy do przygotowania planu warsztatu z modułu 3. Zachowujemy stan projektu sprzed SP-04; późniejszych decyzji nie używamy do przygotowania wcześniejszego spotkania.
 
@@ -224,9 +244,9 @@ Wracamy do przygotowania planu warsztatu z modułu 3. Zachowujemy stan projektu 
 5. Przy pomocy darmowego czatu przekształćcie mapę w AGENTS.md. Dodajcie tylko potrzebny szablon wyniku lub checklistę. Sprawdźcie zgodność instrukcji z mapą i odwołania do plików. Pierwsze 20 minut: zapis i kontrola instrukcji. Ostatnie 10: własna próba, porównanie wariantu, konsultacja lub dokończenie. Potem lunch. Dla całości i kroków zachowajcie wejścia, wyjścia, kryteria odbioru, dowody kontroli, pętlę poprawy, warunki zatrzymania i przekazanie człowiekowi.
 6. Po lunchu przeprowadźcie próbę w czacie: wykonanie → kontrola → poprawka → ponowna kontrola. W 20 minut wykonajcie próbę, ocenę, poprawkę i ponowną kontrolę, jeśli potrzebna. Przy poprawnym wyniku sprawdźcie wariant z brakiem lub sprzecznością. Wybieracie szczegóły próby i możecie korzystać z konsultacji. Zwykły czat otrzymuje instrukcje jawnie; nazwa pliku nie powoduje uruchomienia agenta.
 7. Przy dobrym wyniku przetestujcie wariant z brakiem informacji lub sprzecznością. Nie wymyślajcie rozstrzygnięcia. Odbiór pozostaje po stronie człowieka.
-8. Prowadząca uruchamia wybrany pakiet grupy w swoim środowisku agenta. Wspólnie oceniacie dowody spełnienia kryteriów i potrzebę kolejnej iteracji.
+8. Porównajcie obserwowane wykonanie procedury z Waszymi kryteriami. Oceńcie dowody i wskażcie, co wymaga kolejnej iteracji.
 
-Rezultat merytoryczny: procedura dla całego zadania i jego kroków, próba, ocena oraz uzasadniona poprawka i ponowna kontrola albo właściwe zatrzymanie. Przy dobrym wyniku sprawdzacie trudniejsze wejście. Nie trzeba wykonywać wszystkich możliwych wariantów. Prowadząca pokazuje wykonanie, własną propozycję rozwiązania i kontrolę; wspólnie wymieniamy obserwacje.
+Rezultat merytoryczny: procedura dla całego zadania i jego kroków, próba, ocena oraz uzasadniona poprawka i ponowna kontrola albo właściwe zatrzymanie. Przy dobrym wyniku sprawdzacie trudniejsze wejście. Nie trzeba wykonywać wszystkich możliwych wariantów. Podzielcie się obserwacjami z prób.
 
 Rezultat: przejrzana instrukcja, potrzebne pliki i zapis testu. Brak danych, decyzji lub postępu powoduje zatrzymanie i pytanie do człowieka. Agent nie może sam obniżać kryteriów. Jedna udana próba nie dowodzi powtarzalności.
 
@@ -259,15 +279,20 @@ Zastosuj poniższą instrukcję do podanych źródeł. Wykonaj zadanie i pokaż 
 
 Człowiek sprawdza wskazane dowody. Zachowaj pierwszą odpowiedź, wynik kontroli i kolejną wersję albo uzasadnienie zatrzymania.
 
-## Moduł 7 — pokaz operacyjnego braina
+## Moduł 7 — Organizowanie i aktualizowanie wiedzy analitycznej
 
-Obserwujcie drogę: obecny stan wiedzy i źródła → nowa informacja → analiza wpływu i propozycja aktualizacji → przygotowanie kolejnego zadania. Nie wykonujecie dużego ćwiczenia.
+Podczas wspólnego przeglądu SerwisPlus zapiszcie własne obserwacje i pytania:
 
-W demonstracji SerwisPlus prowadząca korzysta z [CHG-01](maile/18-zmiana-kolejek-priority-standard.md). Odróżnijcie datę analizy 8 września od wejścia zmiany 21 września o 09:00. [Wejścia testowe](19-proby-po-zmianie.md) służą ewentualnemu pokazowi po wejściu zmiany, nie dodatkowej pracy własnej.
+- Co potwierdza źródło, a co pozostaje propozycją?
+- Co zmienia nowa informacja i które ustalenia pozostają aktualne?
+- Na jakie dokumenty, wymagania lub zadania wpływa zmiana?
+- Gdzie potrzebna jest decyzja człowieka?
 
-Pytania do pokazu: co potwierdza źródło? Co się zmienia? Co pozostaje aktualne? Gdzie potrzebna jest decyzja człowieka? Na co wpływa zmiana? Korzyści omawiamy na przykładzie, bez zakładania pełnej wykrywalności sprzeczności.
+Materiał: [CHG-01 — zmiana kolejek](maile/18-zmiana-kolejek-priority-standard.md). Odróżnijcie datę analizy 8 września od wejścia zmiany 21 września o 09:00. [Wejścia testowe](19-proby-po-zmianie.md) dotyczą stanu po wejściu zmiany.
 
-## Moduł 8 — rozmowa i wspólny kolaż „Ja + AI”
+Nie ma dodatkowego obowiązkowego rezultatu do oddania.
+
+## Moduł 8 — Jakość, skuteczność i dalszy rozwój
 
 Rozmawiamy o jakości, współpracy z AI, pracy głębokiej i płytkiej, odpowiedzialności, rozwoju oraz mentoringu. Wracamy do doświadczeń i oczekiwań z początku szkolenia.
 
@@ -280,4 +305,4 @@ Na końcu: 2 minuty refleksji, 5 minut tworzenia kolażu, 3 minuty oglądania i 
 
 Możesz użyć słów, kolorów, symboli lub obrazów. Nie ma wymogu optymistycznej odpowiedzi ani ujawniania osobistych informacji. Przy 9 osobach każdy jest zaproszony do jednego zdania; przy 20 rozmawiamy wokół wspólnych tematów. Można pominąć wypowiedź.
 
-Nie przygotowujemy dodatkowej karty oceny ani planu 30-dniowego. Zachowaj własny następny krok i materiały, które chcesz wykorzystać ponownie.
+Zachowaj własny następny krok i materiały, które chcesz wykorzystać ponownie.
