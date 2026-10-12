@@ -20,11 +20,11 @@ Każdy wynik oznacz: moduł, grupa, stan źródeł, status „roboczy — do prz
 | --- | --- |
 | 2 | Plan grupy wygenerowany i poprawiony w czacie, uwagi ze źródłami i kwestie do uzgodnienia |
 | 3 | Plan warsztatu, prompt i pełny zapis próby — baza do M6 |
-| 4 | 4–6 wymagań, dwa prompty przeglądu, uwagi i poprawiona wersja |
+| 4 | Użyty prompt, ocena W01–W08, uzasadnienie podejścia i kontrola uwag AI |
 | 5 | Dwa robocze profile; możesz zachować je wyłącznie u siebie |
 | 6 | Porównanie odpowiedzi, instrukcja AGENTS.md i potrzebne pliki, zapis testu i poprawki |
 
-Przykłady 09–12 w `rezultaty/` otwieraj od M3. Szkic 17 jest celowo wadliwy i służy tylko jako wariant rezerwowy wskazany przez prowadzącą. Nie są to rezultaty Waszej pracy ani zatwierdzone rozwiązania SerwisPlus.
+Przykłady 09–12 w `rezultaty/` otwieraj od M3. Szkic 17 jest celowo wadliwym materiałem do oceny w module 4. Nie są to rezultaty Waszej pracy ani zatwierdzone rozwiązania SerwisPlus.
 
 ## Zasady pracy
 
@@ -158,36 +158,56 @@ Przygotowuję warsztat SerwisPlus. Na podstawie załączonych materiałów 01–
 
 ## Moduł 4 — Wymagania i wizualizacja ustalonej treści
 
-Źródła: 01–03 oraz [decyzje SP-04](maile/15-potwierdzenie-decyzji-po-warsztacie.md). Pozostałe karty 04–08, przykłady 09–12 i notatki R01–R03 są dostępne jako opracowania pomocnicze. Decyzje SP-04 to fikcyjne wejście do ćwiczenia, nie rezultat przeprowadzonego przez Was spotkania.
+### Weryfikacja i walidacja przykładowych wymagań z AI
 
-1. Połowa A pisze własny prompt generujący 4–6 wymagań. Format: ID, typ, treść, źródło, status, kryteria akceptacji.
-2. Połowa B pisze dwa prompty: weryfikacja jakości zapisu i walidacja względem potrzeby, wartości oraz zakresu. Kryteria ustala przed otrzymaniem wyniku A.
-3. Przygotowanie trwa 15 minut. Następnie A przekazuje wymagania B; obie grupy dysponują tym samym kontekstem.
-4. Przez 15 minut B sprawdza wymagania, a A uzasadnia własne zapisy źródłami. Uwagi AI wymagają sprawdzenia. Ocena: ID, kryterium, dowód, problem i proponowane działanie. Brak podstawy do oceny zapisujemy jawnie.
-5. Po 5-minutowej przerwie macie 10 minut na uzgodnienie i naniesienie poprawek. A uzasadnia przyjęcie lub odrzucenie uwag, B koryguje nietrafne oceny i prompty. W tym kroku możecie sprawdzić własny wariant lub skorzystać z konsultacji. Przegląd obejmuje cały zestaw 4–6 wymagań.
-6. Zapiszcie wymagania, prompty, uwagi oraz poprawioną wersję w `rezultaty/`. Zachowajcie powiązanie: źródło → wymaganie → uwaga → poprawka lub uzasadnione odrzucenie uwagi. Uzgodnienie w grupie nie jest zatwierdzeniem biznesowym.
+**Materiał do oceny:** [SP-06 — przykładowy szkic wymagań W01–W08](rezultaty/17-wadliwy-szkic-wymagan.md). To celowo wadliwy, niezatwierdzony szkic do przeglądu.
 
-9 osób: A — 4, B — 5. Przy 20 osobach dwie pary zespołów A/B, po 5 osób. Role: operator, źródła, jakość zapisu, kontekst i wartość, zapis wyników. Gdy osób jest mniej, role łączymy.
+**Wspólny kontekst:** [brief SP-01](01-brief-projektu.md), [wypowiedzi SP-02](02-glosy-interesariuszy.md), [reguły SP-03](03-reguly-biznesowe.md) i [decyzje SP-04](maile/15-potwierdzenie-decyzji-po-warsztacie.md). Pozostałe materiały 04–12 i notatki R01–R03 możecie wykorzystać pomocniczo. SP-04 stanowi fikcyjne wejście do ćwiczenia.
 
-Kryteria: zapis jest zrozumiały i sprawdzalny; źródło uzasadnia wymaganie; propozycja nie udaje decyzji; braki nie są uzupełniane domysłem; kryteria odbioru dają się sprawdzić. Przykład: przy brakującym modelu urządzenia wynik pokazuje „brak”, a nie model domyślny.
+| Grupa | Zadanie | Pytanie przewodnie |
+| --- | --- | --- |
+| A — osoby 01–04 | Weryfikacja wymagań | Czy wymagania są zapisane poprawnie i nadają się do użycia? |
+| B — osoby 05–09 | Walidacja wymagań | Czy wymagania odpowiadają potrzebie, wartości, zakresowi i kontekstowi SerwisPlus? |
 
-[Wadliwy szkic SP-06](rezultaty/17-wadliwy-szkic-wymagan.md) jest wyłącznie wariantem rezerwowym wskazanym przez prowadzącą, nie dodatkowym obowiązkowym zadaniem.
+Obie grupy oceniają ten sam zestaw W01–W08. Każda przygotowuje własny prompt i wykonuje swój rodzaj przeglądu w darmowym czacie AI.
 
-### Wsparcie przy pisaniu własnych promptów
+### Praca w czacie
 
-W tym ćwiczeniu samodzielnie projektujecie prompty. Uzupełnijcie schemat, zamiast kopiować gotowe rozwiązanie:
+1. Przeczytajcie wymagania i potrzebny kontekst. Określcie kryteria właściwe dla Waszego zadania.
+2. Napiszcie własny prompt: cel, materiały, zakres oceny, kryteria, format wyniku i sposób obsługi braków.
+3. Wklejcie prompt oraz materiały do czatu. Przeprowadźcie ocenę W01–W08 z pomocą AI.
+4. Sprawdźcie każdą uwagę AI. Wskażcie konkretny fragment wymagania, a dla oceny biznesowej także źródło i punkt. Brak danych oznaczcie jako brak podstawy do oceny.
+5. Poprawcie nietrafne oceny lub prompt i ponówcie próbę, jeśli potrzeba. Proponowane zmiany wymagań oznaczajcie jako propozycje.
+6. Zapiszcie pełny użyty prompt, wynik AI i Waszą ocenę w pliku w `rezultaty/`.
+
+### Na czym skupić przegląd?
+
+**Grupa A — weryfikacja:** jednoznaczność, atomowość, zrozumiałość, kompletność na danym poziomie, spójność zestawu, testowalność i wykonalność w zakresie dostępnych danych. Uzasadniajcie ocenę fragmentem wymagania i przyjętym kryterium.
+
+**Grupa B — walidacja:** powiązanie z potrzebą i oczekiwaną wartością, zgodność z zakresem, regułami i decyzjami oraz jawność założeń. Sam poprawny zapis nie uzasadnia potrzeby realizacji. Ocena AI nie zastępuje akceptacji interesariusza.
+
+### Co ma zawierać Wasza odpowiedź?
+
+- **Pełny prompt użyty w czacie**, a jeśli był poprawiany — również wersję po zmianie.
+- **Podejście grupy:** jaki cel przyjęliście, jakie kryteria i źródła wybraliście oraz dlaczego.
+- **Wynik przeglądu:** ID wymagania | kryterium | ocena | fragment lub dowód źródłowy | uwaga | proponowane działanie.
+- **Waszą kontrolę AI:** które uwagi przyjęliście, które odrzuciliście i z jakiego powodu.
+- **Wnioski i pytania otwarte:** czego nie można rozstrzygnąć na podstawie materiałów.
+
+Przygotujcie krótkie wyjaśnienie własnego sposobu myślenia: pokażcie na wybranym wymaganiu, jak przeszliście od kryterium i dowodu do oceny. Chodzi o Wasze uzasadnienie, a nie o deklarację modelu, że „sprawdził” wymaganie.
+
+### Schemat do napisania własnego prompta
 
 ```text
-Cel i rola AI: [...]
-Stan projektu i dołączone źródła: [...]
-Zadanie i zakres: [...]
-Oczekiwany format wyniku: [...]
+Cel przeglądu: [weryfikacja albo walidacja]
+Materiał oceniany: [wklej W01–W08]
+Kontekst i źródła: [wklej potrzebne materiały]
 Kryteria oceny: [...]
-Co zrobić przy braku lub sprzeczności: [...]
-Co pozostaje decyzją człowieka: [...]
+Zakres zadania i granice: [...]
+Format wyniku: ID | kryterium | ocena | dowód | uwaga | proponowane działanie
+Przy brakach lub sprzecznościach: [...]
+Status wyniku: robocza ocena do sprawdzenia przez człowieka
 ```
-
-Autorzy uwzględniają 4–6 wymagań i ich atrybuty. Recenzenci przygotowują oddzielny prompt weryfikacji zapisu i oddzielny prompt walidacji względem potrzeb, wartości, reguł i zakresu. Dla każdego osądu wymagajcie dowodu ze źródła; przy braku podstawy wynikiem jest pytanie, nie arbitralna ocena.
 
 ## Moduł 5 — Budowanie trwałego kontekstu pracy analityka
 
