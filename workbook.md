@@ -1,7 +1,7 @@
 # Warsztat SerwisPlus — instrukcje i prompty krok po kroku
 
 AI w analizie biznesowej · Agnieszka Balcerzak · InProgress.
-Workbook uczestnika do pracy z case study SerwisPlus w czacie AI i generatorach profili. Zawiera materiały wejściowe, instrukcje, prompty oraz sposób sprawdzania i zapisywania wyników.
+Workbook uczestnika do pracy z case study SerwisPlus w czacie AI. Zawiera materiały wejściowe, instrukcje, prompty oraz sposób sprawdzania i zapisywania wyników.
 
 
 ## Jak korzystać z pakietu
@@ -12,7 +12,7 @@ W nowej rozmowie podaj cel zadania, wskazane źródła i prompt. Tekst źródła
 
 ## Gdzie zapisywać rezultaty
 
-Po pobraniu pakietu zapisuj wyniki w jego folderze `rezultaty/`, np. `m03-grupa-a-plan-warsztatu.md`. Nie musisz publikować ich na GitHub ani udostępniać profili osobistych. Do modułu 6 zachowaj kopię wyniku M3.
+Po pobraniu pakietu zapisuj wyniki w jego folderze `rezultaty/`, np. `m03-grupa-a-plan-warsztatu.md`. Nie musisz publikować ich na GitHub. Do modułu 6 zachowaj kopię wyniku M3.
 
 Każdy wynik oznacz: moduł, grupa, stan źródeł, status „roboczy — do przeglądu”. Zachowaj prompt, wskazane źródła, pierwszą odpowiedź, uwagi człowieka i wersję po poprawie. Zapisz dostępny model oraz czas pracy łącznie z kontrolą.
 
@@ -20,17 +20,10 @@ Każdy wynik oznacz: moduł, grupa, stan źródeł, status „roboczy — do prz
 | --- | --- |
 | 2 | Plan grupy wygenerowany i poprawiony w czacie, uwagi ze źródłami i kwestie do uzgodnienia |
 | 3 | Plan warsztatu, prompt i pełny zapis próby — baza do M6 |
-| 4 | Użyty prompt, ocena W01–W08, uzasadnienie podejścia i kontrola uwag AI |
-| 5 | Dwa robocze profile; możesz zachować je wyłącznie u siebie |
+| 4 | Użyty prompt, odpowiedź AI z oceną W01–W08 i poprawki po sprawdzeniu |
 | 6 | Porównanie odpowiedzi, instrukcja AGENTS.md i potrzebne pliki, zapis testu i poprawki |
 
 Przykłady 09–12 w `rezultaty/` otwieraj od M3. Szkic 17 jest celowo wadliwym materiałem do oceny w module 4. Nie są to rezultaty Waszej pracy ani zatwierdzone rozwiązania SerwisPlus.
-
-## Zasady pracy
-
-Pracujemy na roboczych rezultatach. W ramach zadania możesz eksperymentować, skonsultować trudność albo spokojnie dopracować wynik; zachowujemy wszystkie kroki merytoryczne. Nie trzeba wykonywać wszystkich wariantów ani wypełniać każdego pola. Różne tempo pracy jest w porządku. Dzielcie się doświadczeniami: co zadziałało, co wymagało poprawy i czego nadal nie wiecie.
-
-Zapisuj źródło i status informacji. Najpierw wykonaj wskazany krok samodzielnie, następnie skorzystaj z AI i sprawdź wynik. Nie traktuj symulacji jako decyzji interesariusza. Materiały późniejszych etapów otwieraj na sygnał prowadzącej.
 
 ## Moduł 2 — Projektowanie kontekstu i przepływu promptów
 
@@ -44,8 +37,6 @@ Zapisuj źródło i status informacji. Najpierw wykonaj wskazany krok samodzieln
 | 2 — osoby 03–04 | Stakeholder Engagement Approach: kogo, kiedy i jak zaangażujemy? | P2-SE |
 | 3 — osoby 05–06 | Governance Approach: kto i jak podejmuje decyzje oraz rozpatruje zmiany? | P2-GOV |
 | 4 — osoby 07–09 | Information Management Approach: jak organizujemy, udostępniamy i aktualizujemy informacje? | P2-INFO |
-
-Przy innej liczebności zachowajcie cztery grupy i rozdzielcie osoby możliwie równomiernie.
 
 1. Przeczytajcie źródła potrzebne do Waszego planu.
 2. Wklejcie je do zwykłego darmowego czatu i użyjcie P1, wpisując nazwę Waszego podejścia.
@@ -128,8 +119,6 @@ Pytanie badawcze: [pytanie]. Zaproponuj źródła pierwotne. Dla każdego wskaż
 ## Moduł 3 — Przygotowanie spotkań i współpracy z interesariuszami
 Wykonajcie zadanie opisane poniżej. Używajcie materiałów 01–12 oraz notatek R01–R03, bez późniejszych decyzji SP-04. Rezultat: cel, uczestnicy z uzasadnieniem, agenda 50 minut i 10 minut rezerwy, pytania wynikające z luk i sposób potwierdzenia notatki. Zachowajcie prompt, kontekst, pierwotny wynik i wersję po kontroli do modułu 6. Zapiszcie czas łącznie z przeglądem i nazwę dostępnego modelu. Plik 15 otwórzcie po zakończeniu pracy nad planem, przed modułem 4.
 
-W module 3 macie 20 minut na pełny roboczy plan, sprawdzenie źródeł i poprawę. W ramach zadania możecie testować własny wariant instrukcji lub kontekstu i korzystać z konsultacji.
-
 ### Wejście i oczekiwany rezultat
 Wejście: brief, wypowiedzi, reguły, robocza architektura, słownik, luki dotyczące polityk oraz podejścia.
 Rezultat: plan spotkania prowadzący do konkretnych wyjaśnień i decyzji, możliwy do wykonania przez prowadzącego.
@@ -196,15 +185,9 @@ Obie grupy oceniają ten sam zestaw W01–W08. Każda przygotowuje własny promp
 
 **Grupa B — walidacja:** powiązanie z potrzebą i oczekiwaną wartością, zgodność z zakresem, regułami i decyzjami oraz jawność założeń. Sam poprawny zapis nie uzasadnia potrzeby realizacji. Ocena AI nie zastępuje akceptacji interesariusza.
 
-### Co ma zawierać Wasza odpowiedź?
+### Zapis pracy w czacie
 
-- **Pełny prompt użyty w czacie**, a jeśli był poprawiany — również wersję po zmianie.
-- **Podejście grupy:** jaki cel przyjęliście, jakie kryteria i źródła wybraliście oraz dlaczego.
-- **Wynik przeglądu:** ID wymagania | kryterium | ocena | fragment lub dowód źródłowy | uwaga | proponowane działanie.
-- **Waszą kontrolę AI:** które uwagi przyjęliście, które odrzuciliście i z jakiego powodu.
-- **Wnioski i pytania otwarte:** czego nie można rozstrzygnąć na podstawie materiałów.
-
-Przygotujcie krótkie wyjaśnienie własnego sposobu myślenia: pokażcie na wybranym wymaganiu, jak przeszliście od kryterium i dowodu do oceny. Chodzi o Wasze uzasadnienie, a nie o deklarację modelu, że „sprawdził” wymaganie.
+Zachowajcie pełny użyty prompt, odpowiedź AI oraz wersję po poprawkach. Przy sprawdzaniu odpowiedzi porównajcie każdą ocenę z kryterium i dowodem w źródłach. Nietrafne uwagi odrzućcie, a brak podstaw do oceny pozostawcie jako pytanie otwarte.
 
 ### Schemat do napisania własnego prompta
 
@@ -219,18 +202,6 @@ Przy brakach lub sprzecznościach: [...]
 Status wyniku: robocza ocena do sprawdzenia przez człowieka
 ```
 
-## Moduł 5 — Budowanie trwałego kontekstu pracy analityka
-
-1. Otwórz [generatory profili](https://www.thebabrain.ai/profile-studio/).
-2. W 5 minut uzupełnij podstawowe pola profil osobisty, a w kolejnych 10 — profil analityka. Wybierz kilka istotnych kompetencji i technik; pozostałe pola możesz uzupełnić później.
-3. Import CV lub wklejenie treści LinkedIn są opcjonalne. Jeśli import sprawia trudność, wpisz najważniejsze informacje ręcznie.
-4. Sprawdź i pobierz pliki Markdown. Nie musisz udostępniać osobistych odpowiedzi. Możesz skorzystać z fikcyjnych [profil osobisty](rezultaty/profil-osobisty-przyklad.md) i [profil analityka](rezultaty/profil-analityka-przyklad.md).
-5. Wskaż fragment profilu przydatny do przygotowania warsztatu i fragment zbędny. Do AI przekazuj tylko potrzebne informacje.
-
-Minimum: robocze profile z kilkoma istotnymi odpowiedziami; puste pola są dopuszczalne.
-
-Rezultat: dwa wstępne profile i rozpoznanie różnicy między profilem, źródłem, opracowaniem oraz instrukcją. Nie budujemy braina podczas szkolenia.
-
 ## Moduł 6 — Od promptu do powtarzalnej procedury
 
 Wracamy do przygotowania planu warsztatu z modułu 3. Zachowujemy stan projektu sprzed SP-04; późniejszych decyzji nie używamy do przygotowania wcześniejszego spotkania.
@@ -239,7 +210,7 @@ Wracamy do przygotowania planu warsztatu z modułu 3. Zachowujemy stan projektu 
 ### 1. Porównanie odpowiedzi z dodatkowym kontekstem
 
 1. Otwórzcie zapis próby z modułu 3: zadanie, prompt, źródła, wynik i kryteria.
-2. Zapiszcie hipotezę: co poprawi dodatkowy kontekst sposobu pracy? Wybierzcie kryteria przed próbą.
+2. Do próby wykorzystajcie wcześniej ustaloną hipotezę i kryteria porównania.
 3. W nowej rozmowie podajcie to samo zadanie i stan źródeł, dodając wybrany profil lub instrukcje sposobu pracy. Korzystajcie z tego samego dostępnego modelu.
 4. Porównajcie odpowiedź z bazą M3 według tych samych kryteriów. Sprawdźcie źródła i zapiszcie poprawę, pogorszenie oraz ograniczenia porównania.
 5. Możecie przetestować kolejny wariant. Zachowajcie prompty, użyty kontekst i wyniki w `rezultaty/`.
