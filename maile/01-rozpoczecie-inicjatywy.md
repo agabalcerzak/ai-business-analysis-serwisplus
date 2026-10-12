@@ -2,11 +2,13 @@
 
 Materiał fikcyjny. Wiadomości i adresy w domenie `.example` powstały do szkolenia; nie są eksportem prawdziwej skrzynki. Nagłówki są elementem scenariusza.
 
-Identyfikator wiadomości: E01. Wątek: INICJATYWA-01. Data scenariusza: 2 września 2026.
-Od: Anna Lis <anna.lis@serwisplus.example>
-Do: Aleksandra Maj <aleksandra.maj@serwisplus.example>
-Temat: Sprawdźmy wsparcie konsultantów przez AI
-Podstawa: adaptacja SP-01 oraz oczekiwania Anny z SP-02. Status: kierunek inicjatywy, nie zatwierdzone wymagania.
+- **Identyfikator wiadomości:** E01
+- **Wątek:** INICJATYWA-01
+- **Data scenariusza:** 2 września 2026.
+- **Od:** Anna Lis <anna.lis@serwisplus.example>
+- **Do:** Aleksandra Maj <aleksandra.maj@serwisplus.example>
+- **Temat:** Sprawdźmy wsparcie konsultantów przez AI
+- **Podstawa:** adaptacja SP-01 oraz oczekiwania Anny z SP-02. Status: kierunek inicjatywy, nie zatwierdzone wymagania.
 
 ## Treść wiadomości
 

@@ -16,6 +16,7 @@ Zestaw zawiera pozycje o różnej jakości i zasadności. Nie zakładajcie z gó
 | W08 | Przy 20 jednoczesnych żądaniach przygotowania podsumowania co najmniej 95% odpowiedzi asystenta ma być dostępnych w ciągu 2 sekund od wysłania żądania. | Propozycja autora szkicu; brak uzgodnionego źródła progu |
 
 ## Materiały do oceny
+
 - [Brief — cel i zakres](../01-brief-projektu.md).
 - [Reguły procesu](../03-reguly-biznesowe.md).
 - [Słownik](../05-slownik-biznesowy.md).

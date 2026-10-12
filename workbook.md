@@ -1,8 +1,8 @@
 # Warsztat SerwisPlus — instrukcje i prompty krok po kroku
 
 AI w analizie biznesowej · Agnieszka Balcerzak · InProgress.
-Workbook uczestnika do pracy z case study SerwisPlus w czacie AI. Zawiera materiały wejściowe, instrukcje, prompty oraz sposób sprawdzania i zapisywania wyników.
 
+Workbook uczestnika do pracy z case study SerwisPlus w czacie AI. Zawiera materiały wejściowe, instrukcje, prompty oraz sposób sprawdzania i zapisywania wyników.
 
 ## Jak korzystać z pakietu
 
@@ -28,6 +28,7 @@ Przykłady 09–12 w `rezultaty/` otwieraj od M3. Szkic 17 zawiera wymagania o r
 ## Moduł 2 — Projektowanie kontekstu i przepływu promptów
 
 ### Przygotowanie jednego podejścia w czacie
+
 Wybierzcie zadanie swojej grupy. Podejście opisuje **jak zorganizujemy pracę analityczną**; nie jest procedurą obsługi zgłoszenia klienta.
 
 Wspólne źródła: [brief](01-brief-projektu.md), [reguły](03-reguly-biznesowe.md), [kontekst projektu](07-kontekst-projektu.md). Dołączcie dodatkowe pliki wskazane poniżej. Pracujecie na stanie przed warsztatem; mail 15 z późniejszymi decyzjami nie jest wejściem.
@@ -57,6 +58,7 @@ Najpierw wskaż informacje istotne dla tego podejścia i luki, które wpływają
 ```
 
 ### P2-BA — podejście do prowadzenia analizy
+
 ```text
 Zaproponuj Business Analysis Approach dla inicjatywy SerwisPlus. Uwzględnij zakres i cel analizy, sposób pracy i poziom formalności, działania, techniki, rezultaty, kolejność i zależności, dostępne zasoby, termin rekomendacji oraz sposób przeglądu i aktualizacji planu.
 Wyjaśnij krótko, dlaczego proponowany sposób pasuje do niepewności i ograniczeń projektu.
@@ -65,6 +67,7 @@ Nie projektuj operacyjnej obsługi zgłoszenia. Nie zakładaj uruchomienia pilot
 ```
 
 ### P2-SE — podejście do współpracy z interesariuszami
+
 ```text
 Zaproponuj Stakeholder Engagement Approach. Uwzględnij role, potrzeby, obawy i rozbieżności, dostępność, cel udziału, formę i moment współpracy, komunikację, potwierdzanie wyników oraz brakujące perspektywy.
 Tabela: osoba / grupa | po co ją angażujemy | proponowana forma i moment | ograniczenie | sposób potwierdzenia informacji | źródło lub luka.
@@ -72,6 +75,7 @@ Uwzględnij ograniczoną obecność Anny. Nie utożsamiaj udziału w konsultacji
 ```
 
 ### P2-GOV — podejście do zarządzania decyzjami
+
 ```text
 Zaproponuj Governance Approach. Wykorzystaj znane mandaty Anny i Ewy; oddziel je od proponowanych zasad akceptacji rezultatów analizy.
 Uwzględnij podejmowanie decyzji, priorytetyzację wymagań, obsługę zmian, akceptację, rozbieżności i eskalację oraz informacje potrzebne do decyzji.
@@ -80,6 +84,7 @@ Nie utożsamiaj odpowiedzialności konsultanta za zgłoszenie z zatwierdzaniem w
 ```
 
 ### P2-INFO — podejście do zarządzania informacją
+
 ```text
 Zaproponuj Information Management Approach. Wykorzystaj istniejący obieg informacji i ograniczenia opisane w źródłach.
 Uwzględnij organizację informacji, poziom szczegółowości, identyfikację i atrybuty, statusy, wersjonowanie, dostęp, utrzymanie aktualności, przechowywanie, ponowne użycie i traceability.
@@ -88,6 +93,7 @@ Oddziel źródła od opracowań. Nie traktuj szkoleniowego GitHuba jako systemu 
 ```
 
 ### P3 — przegląd odpowiedzi
+
 ```text
 Porównaj projekt podejścia z podanymi źródłami i zakresem zadania. Oceń kompletność potrzebnych elementów, wykonalność, zgodność z ograniczeniami i mandatami oraz jawność propozycji i luk.
 Tabela: fragment odpowiedzi | problem lub brak | źródło i sekcja | propozycja poprawy. Nie zmieniaj statusu propozycji na zatwierdzenie.
@@ -95,6 +101,7 @@ Tabela: fragment odpowiedzi | problem lub brak | źródło i sekcja | propozycja
 ```
 
 ### P4 — poprawa po kontroli człowieka
+
 ```text
 Popraw podejście na podstawie poniższych uwag sprawdzonych przeze mnie. Zachowaj zakres zadania i status propozycji. Nie rozstrzygaj pozostawionych pytań. Zwróć poprawiony wynik i krótką listę zmian.
 [ZWERYFIKOWANE UWAGI]
@@ -111,6 +118,7 @@ Zakres czterech podejść: [IIBA — Business Analysis Planning and Monitoring, 
 ## Moduł 3 — Przygotowanie spotkań i współpracy z interesariuszami
 
 ### Materiały do wklejenia do czatu
+
 - [Kontekst i warunki warsztatu](07-kontekst-projektu.md) oraz [role i dostępność](08-interesariusze.md).
 - [Brief](01-brief-projektu.md), [reguły](03-reguly-biznesowe.md), [słownik](05-slownik-biznesowy.md) i [ograniczenia informacji](06-polityki-i-informacje.md).
 - Notatki: [cel i pomiar](notatki-ze-spotkan/R01-cel-inicjatywy.md), [automatyzacja](notatki-ze-spotkan/R02-granice-automatyzacji.md), [jakość](notatki-ze-spotkan/R03-jakosc-przekazania.md).
@@ -119,12 +127,14 @@ Zakres czterech podejść: [IIBA — Business Analysis Planning and Monitoring, 
 To stan przed warsztatem 4 września. **Nie dodawajcie maila 15 z późniejszymi decyzjami ani szkicu wymagań 17.**
 
 ### Praca w czacie
+
 1. Dołączcie źródła i użyjcie prompta poniżej.
 2. Sprawdźcie, czy plan odpowiada lukom z notatek, mieści się w 60 minutach i uwzględnia obecność Anny tylko przez pierwsze 20 minut.
 3. Sprawdźcie techniki, materiały, pytania, sposób zapisania i potwierdzenia wyników. Usuńcie decyzje przypisane osobom bez mandatu.
 4. Zlećcie poprawkę w czacie. Zachowajcie prompt, kontekst, pierwszą odpowiedź, uwagi i poprawiony plan jako bazę do porównania w M6. Zapiszcie model i czas łącznie z kontrolą.
 
 ### Prompt — plan warsztatu
+
 ```text
 Na podstawie załączonych materiałów SerwisPlus przygotuj plan pozyskania informacji podczas warsztatu 4 września, 10:00–11:00.
 Najpierw wskaż luki i rozbieżności istotne dla spotkania, z nazwą pliku i sekcją. Następnie przygotuj:
@@ -199,7 +209,6 @@ Status wyniku: robocza ocena do sprawdzenia przez człowieka
 ## Moduł 6 — Od promptu do powtarzalnej procedury
 
 Wracamy do przygotowania planu warsztatu z modułu 3. Zachowujemy stan projektu sprzed warsztatu 4 września (bez maila 15 z decyzjami); późniejszych decyzji nie używamy do przygotowania wcześniejszego spotkania.
-
 
 ### 1. Porównanie odpowiedzi z dodatkowym kontekstem
 

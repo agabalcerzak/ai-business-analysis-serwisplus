@@ -5,6 +5,7 @@ Fikcyjny projekt wsparcia konsultantów AI przy przygotowaniu zgłoszeń serwiso
 **Instrukcje pracy w czacie i prompty: [workbook](workbook.md).**
 
 ## Co oznacza SP-01?
+
 „SP” oznacza SerwisPlus. Dawne oznaczenia były identyfikatorami materiałów, nie terminami BABOK ani numerami zadań. Nie trzeba się ich uczyć. W pracy wskazuj nazwę pliku oraz nagłówek, numer reguły lub decyzji.
 
 Uwaga: dawne **SP-04 oznacza mail z decyzjami w pliku 15**, a nie plik 04 z architekturą. Poniższa mapa pozwala odczytać starsze odwołania na slajdach i tablicy.
@@ -24,6 +25,7 @@ Uwaga: dawne **SP-04 oznacza mail z decyzjami w pliku 15**, a nie plik 04 z arch
 | SP-07 / SP-08 | [18 — późniejsza zmiana](maile/18-zmiana-kolejek-priority-standard.md) / [19 — próby po zmianie](19-proby-po-zmianie.md); dopiero moduł 7 |
 
 ## 1. Cztery podejścia do pracy analitycznej — moduł 2
+
 Wspólny punkt wyjścia: [brief](01-brief-projektu.md), [reguły](03-reguly-biznesowe.md) i [kontekst projektu](07-kontekst-projektu.md). Następnie dobierz materiały do swojego zadania:
 
 | Przygotowywany rezultat | Najważniejsze dodatkowe źródła | Jakie dane z nich wykorzystasz |
@@ -36,7 +38,9 @@ Wspólny punkt wyjścia: [brief](01-brief-projektu.md), [reguły](03-reguly-bizn
 Źródła opisują sytuację firmy. Uczestnicy proponują sposób prowadzenia analizy. Gotowe przykłady 09–12 są w folderze rezultatów i służą jako wejście dopiero od modułu 3.
 
 ## 2. Plan warsztatu — moduł 3
+
 Wykorzystaj kontekst powyżej, [dostępność osób](08-interesariusze.md), [warunki spotkania](07-kontekst-projektu.md) i trzy notatki:
+
 - [Cel inicjatywy i pomiar wartości](notatki-ze-spotkan/R01-cel-inicjatywy.md).
 - [Granice automatyzacji](notatki-ze-spotkan/R02-granice-automatyzacji.md).
 - [Jakość informacji dla techników](notatki-ze-spotkan/R03-jakosc-przekazania.md).
@@ -46,6 +50,7 @@ Przykłady podejść do dalszej pracy: [analiza](rezultaty/09-podejscie-do-anali
 **Stan projektu: przed warsztatem 4 września. Pliku 15 z późniejszymi decyzjami jeszcze nie używaj.**
 
 ## 3. Weryfikacja i walidacja wymagań — moduł 4
+
 Obie grupy oceniają [ten sam szkic W01–W08](rezultaty/17-wadliwy-szkic-wymagan.md). Nie jest to zatwierdzona specyfikacja ani wzorzec odpowiedzi.
 
 Kontekst do oceny: [brief](01-brief-projektu.md), [reguły](03-reguly-biznesowe.md), [słownik](05-slownik-biznesowy.md) oraz **[decyzje po warsztacie — D01–D08](maile/15-potwierdzenie-decyzji-po-warsztacie.md)**. [Przykładowe zgłoszenia](16-przykladowe-zgloszenia.md) pomagają sprawdzać scenariusze.
@@ -53,11 +58,13 @@ Kontekst do oceny: [brief](01-brief-projektu.md), [reguły](03-reguly-biznesowe.
 Weryfikacja dotyczy jakości wymagań; walidacja — ich związku z potrzebą, wartością i kontekstem. Definicje, kryteria i schemat własnego prompta znajdują się w workbooku. Zestaw zawiera różne przypadki; materiał nie podaje klucza ocen.
 
 ## Kolejne moduły
+
 - Profile do wykorzystania jako dodatkowy kontekst: [osobisty](rezultaty/profil-osobisty-przyklad.md) i [analityka](rezultaty/profil-analityka-przyklad.md).
 - Moduł 6: zachowaj wynik M3 i ten sam stan projektu sprzed warsztatu. Późniejsze decyzje nie mogą być wejściem do porównania.
 - Moduł 7: dopiero tutaj korzystaj z materiałów 18 i 19.
 
 ## Jak pracować z plikami
+
 Otwórz plik i skopiuj jego treść do darmowego czatu albo pobierz repozytorium przez **Code → Download ZIP**. Sam link nie gwarantuje, że czat przeczytał dokument. Podawaj nazwy dołączanych plików.
 
 Maile i notatki pozostają w osobnych folderach. Dwa pierwsze maile powtarzają brief i reguły; nie musisz dołączać obu reprezentacji tego samego źródła. Zestawienie głosów i notatki odnoszą się do tych samych rozmów.

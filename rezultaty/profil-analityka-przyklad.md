@@ -5,6 +5,7 @@
 Data odniesienia: 2026-10-11. Status: przykład dydaktyczny.
 
 Preferencje są propozycją współpracy, nie zatwierdzonym kontraktem zespołu. Kontekst projektu pozostaje w źródłach SerwisPlus.
+
 Powiązany plik: [profil osobisty](profil-osobisty-przyklad.md).
 
 ## Doświadczenie · 4 min

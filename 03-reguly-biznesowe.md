@@ -1,7 +1,9 @@
 # Proces i reguły obowiązujące od 1 sierpnia 2026
 
 Dawne oznaczenie: SP-03. Numery 1–8 identyfikują reguły.
+
 Status: zatwierdzone reguły stanu bieżącego w fikcyjnym scenariuszu.
+
 Właścicielka reguł: Ewa Krawiec.
 
 1. Każde zgłoszenie jest rejestrowane, nawet gdy jest niekompletne.
@@ -12,7 +14,5 @@ Właścicielka reguł: Ewa Krawiec.
 6. Kompletne zgłoszenia trafiają do jednej kolejki według kolejności pierwszego przekazania.
 7. Konsultant decyduje o wysłaniu wiadomości i przekazaniu. Nie ma zatwierdzonej automatycznej wysyłki.
 8. Na podstawie treści zgłoszenia nie wolno obiecywać terminu naprawy ani przedstawiać diagnozy jako ustalonej.
-
-
 
 Materiał fikcyjny. Wersja szkoleniowa 11.10.2026. Stan przed warsztatem; do modułów 2–4. Późniejsze decyzje w pliku 15 nie zmieniają tych ośmiu reguł.
