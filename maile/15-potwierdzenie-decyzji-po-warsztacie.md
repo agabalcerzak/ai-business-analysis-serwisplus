@@ -1,7 +1,5 @@
 # Potwierdzone decyzje po warsztacie
 
-Dawne oznaczenie: SP-04. To plik 15, nie plik 04 z architekturą.
-
 Materiał fikcyjny. Wiadomości i adresy w domenie `.example` powstały do szkolenia; nie są eksportem prawdziwej skrzynki. Nagłówki są elementem scenariusza.
 
 - **Identyfikator wiadomości:** E03
@@ -36,6 +34,6 @@ Przekazuję zapis decyzji z przypisaniem zatwierdzających i zakresu ich decyzji
 
 Próg jakości, porównywalność pomiaru, narzędzie i budżet, zachowanie przy braku kontaktu. Nie ma zatwierdzonego SLA, integracji ani katalogu modeli.
 
-Etap udostępnienia do pracy: Po zakończeniu warsztatu; do modułu 4. Fikcyjny materiał z istniejącego pakietu ćwiczeń SerwisPlus, bez klucza trenerskiego.
+Etap udostępnienia do pracy: Po zakończeniu warsztatu; do modułu 4. Materiał fikcyjny do ćwiczeń.
 
 To źródło decyzji do modułu 4. Nie jest wynikiem pracy uczestników. Nie używaj go do przygotowania planu wcześniejszego warsztatu w module 3 ani jego ponowienia w module 6.

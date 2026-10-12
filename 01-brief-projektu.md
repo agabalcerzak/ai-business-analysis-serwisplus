@@ -1,6 +1,6 @@
 # Brief projektu — wsparcie przygotowania zgłoszeń serwisowych
 
-Materiał fikcyjny do szkolenia. Autorka w scenariuszu: Anna Lis, właścicielka SerwisPlus i sponsorka. Data: 1 września 2026. Status: zlecenie analizy; nie jest zatwierdzeniem wdrożenia. Dawne oznaczenie: SP-01 (SerwisPlus, brief).
+Materiał fikcyjny do szkolenia. Autorka w scenariuszu: Anna Lis, właścicielka SerwisPlus i sponsorka. Data: 1 września 2026. Status: zlecenie analizy; nie jest zatwierdzeniem wdrożenia.
 
 ## Potrzeba i oczekiwana wartość
 

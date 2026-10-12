@@ -2,13 +2,13 @@
 
 > Fikcyjna osoba i fikcyjne odpowiedzi. Przykład szkoleniowy do SerwisPlus; nie opisuje Agnieszki ani rzeczywistego uczestnika.
 
-Data odniesienia: 2026-10-11. Status: przykład dydaktyczny.
+Status: przykład dydaktyczny.
 
 Preferencje są propozycją współpracy, nie zatwierdzonym kontraktem zespołu. Kontekst projektu pozostaje w źródłach SerwisPlus.
 
 Powiązany plik: [profil osobisty](profil-osobisty-przyklad.md).
 
-## Doświadczenie · 4 min
+## Doświadczenie
 
 ### Imię lub pseudonim
 
@@ -30,7 +30,7 @@ Najpierw pracowałam w obsłudze usług B2B, później przy usprawnianiu proces�
 
 Usprawnienie obsługi zgłoszeń B2B → opisałam proces i uzgodniłam reguły eskalacji → zespół otrzymał wspólny opis postępowania.
 
-## Kompetencje i techniki · 3 min
+## Kompetencje i techniki
 
 ### Moje kompetencje — samoocena
 
@@ -48,7 +48,7 @@ Dostawcy, wejścia, proces, wyjścia i odbiorcy (SIPOC) — porządkuję granice
 
 zarządzanie procesami biznesowymi; technologie informacyjne.
 
-## Współpraca i AI · 2 min
+## Współpraca i AI
 
 ### Spotkania i komunikacja pisemna
 

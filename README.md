@@ -4,25 +4,13 @@ Fikcyjny projekt wsparcia konsultantów AI przy przygotowaniu zgłoszeń serwiso
 
 **Instrukcje pracy w czacie i prompty: [workbook](workbook.md).**
 
-## Co oznacza SP-01?
+## Zacznij tutaj
 
-„SP” oznacza SerwisPlus. Dawne oznaczenia były identyfikatorami materiałów, nie terminami BABOK ani numerami zadań. Nie trzeba się ich uczyć. W pracy wskazuj nazwę pliku oraz nagłówek, numer reguły lub decyzji.
+1. Otwórz workbook i przejdź do bieżącego modułu.
+2. Wklej do czatu treść wskazanych źródeł oraz prompt. Nie trzeba czytać całego repozytorium przed rozpoczęciem.
+3. Sprawdź odpowiedź ze źródłami i zachowaj własny wynik w lokalnym folderze `rezultaty/`.
 
-Uwaga: dawne **SP-04 oznacza mail z decyzjami w pliku 15**, a nie plik 04 z architekturą. Poniższa mapa pozwala odczytać starsze odwołania na slajdach i tablicy.
-
-| Dawny skrót | Materiał |
-| --- | --- |
-| SP-01 | [01 — brief projektu](01-brief-projektu.md) |
-| SP-02 | [02 — głosy interesariuszy](02-glosy-interesariuszy.md) |
-| SP-03 | [03 — reguły biznesowe](03-reguly-biznesowe.md); np. SP-03.3 to reguła 3 |
-| SP-K01 / K01 | [04 — architektura biznesowa](04-architektura-biznesowa.md) |
-| SP-K02 / K02 | [05 — słownik](05-slownik-biznesowy.md) |
-| SP-K03 / K03 | [06 — zasady pracy z informacją](06-polityki-i-informacje.md) |
-| SP-K04 / K04 | [07 — kontekst projektu](07-kontekst-projektu.md) |
-| SP-04 | [15 — potwierdzone decyzje po warsztacie](maile/15-potwierdzenie-decyzji-po-warsztacie.md) |
-| SP-05 | [16 — przykładowe zgłoszenia](16-przykladowe-zgloszenia.md) |
-| SP-06 | [17 — szkic wymagań do oceny](rezultaty/17-wadliwy-szkic-wymagan.md) |
-| SP-07 / SP-08 | [18 — późniejsza zmiana](maile/18-zmiana-kolejek-priority-standard.md) / [19 — próby po zmianie](19-proby-po-zmianie.md); dopiero moduł 7 |
+W odpowiedziach wskazuj nazwę pliku i konkretną sekcję, regułę, decyzję lub wymaganie. Numery plików służą do nawigacji; nie oznaczają kolejnych zadań do wykonania.
 
 ## 1. Cztery podejścia do pracy analitycznej — moduł 2
 
@@ -30,7 +18,7 @@ Wspólny punkt wyjścia: [brief](01-brief-projektu.md), [reguły](03-reguly-bizn
 
 | Przygotowywany rezultat | Najważniejsze dodatkowe źródła | Jakie dane z nich wykorzystasz |
 | --- | --- | --- |
-| Business Analysis Approach | [architektura](04-architektura-biznesowa.md), [kontekst projektu](07-kontekst-projektu.md) | Granice analizy, termin rekomendacji, zasoby, niepewności i zależności |
+| Business Analysis Approach | [architektura](04-architektura-biznesowa.md), [interesariusze](08-interesariusze.md) | Granice analizy, termin rekomendacji, zasoby, niepewności i zależności |
 | Stakeholder Engagement Approach | [głosy](02-glosy-interesariuszy.md), [interesariusze](08-interesariusze.md) | Potrzeby, obawy, rozbieżności, dostępność i ograniczenia kontaktu |
 | Governance Approach | [brief](01-brief-projektu.md), [zasady informacji](06-polityki-i-informacje.md), [kontekst projektu](07-kontekst-projektu.md) | Znane mandaty, kwestie do decyzji, ograniczenia i brakujący sposób akceptacji, priorytetyzacji oraz obsługi zmian |
 | Information Management Approach | [słownik](05-slownik-biznesowy.md), [zasady informacji](06-polityki-i-informacje.md) | Rodzaje informacji, obieg, statusy, dostęp, wersje, powiązania i aktualność |
@@ -55,13 +43,13 @@ Obie grupy oceniają [ten sam szkic W01–W08](rezultaty/17-wadliwy-szkic-wymaga
 
 Kontekst do oceny: [brief](01-brief-projektu.md), [reguły](03-reguly-biznesowe.md), [słownik](05-slownik-biznesowy.md) oraz **[decyzje po warsztacie — D01–D08](maile/15-potwierdzenie-decyzji-po-warsztacie.md)**. [Przykładowe zgłoszenia](16-przykladowe-zgloszenia.md) pomagają sprawdzać scenariusze.
 
-Weryfikacja dotyczy jakości wymagań; walidacja — ich związku z potrzebą, wartością i kontekstem. Definicje, kryteria i schemat własnego prompta znajdują się w workbooku. Zestaw zawiera różne przypadki; materiał nie podaje klucza ocen.
+Weryfikacja dotyczy jakości wymagań; walidacja — ich związku z potrzebą, wartością i kontekstem. Definicje, kryteria i schemat własnego prompta znajdują się w workbooku. Zestaw zawiera poprawne i problematyczne pozycje oraz kwestie wymagające dodatkowych danych.
 
 ## Kolejne moduły
 
 - Profile do wykorzystania jako dodatkowy kontekst: [osobisty](rezultaty/profil-osobisty-przyklad.md) i [analityka](rezultaty/profil-analityka-przyklad.md).
 - Moduł 6: zachowaj wynik M3 i ten sam stan projektu sprzed warsztatu. Późniejsze decyzje nie mogą być wejściem do porównania.
-- Moduł 7: dopiero tutaj korzystaj z materiałów 18 i 19.
+- Moduł 7: [mail o zmianie kolejek](maile/18-zmiana-kolejek-priority-standard.md) i [próby po zmianie](19-proby-po-zmianie.md).
 
 ## Jak pracować z plikami
 

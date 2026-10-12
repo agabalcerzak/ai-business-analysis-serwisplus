@@ -1,6 +1,6 @@
 # Kontekst i warunki pracy analitycznej
 
-Fikcyjna karta organizacyjna inicjatywy. Uzgodniona przez Annę Lis na potrzeby rozpoczęcia analizy 2 września 2026. Dawne oznaczenie: SP-K04. Stan przed warsztatem.
+Fikcyjna karta organizacyjna inicjatywy. Uzgodniona przez Annę Lis na potrzeby rozpoczęcia analizy 2 września 2026. Stan przed warsztatem.
 
 ## Oczekiwany przebieg inicjatywy
 

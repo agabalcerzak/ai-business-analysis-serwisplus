@@ -1,4 +1,4 @@
-# SP-07 — mail o zatwierdzonej zmianie CHG-01
+# Mail o zatwierdzonej zmianie CHG-01
 
 Materiał fikcyjny. Wiadomości i adresy w domenie `.example` powstały do szkolenia; nie są eksportem prawdziwej skrzynki. Nagłówki są elementem scenariusza.
 
@@ -25,6 +25,6 @@ Brak, niejednoznaczność lub sprzeczność wyniku oznacza „poziom obsługi ni
 
 Wynik analizy zawiera poziom obsługi, źródło potwierdzenia i proponowaną kolejkę. Gotowość wymaga czterech pól oraz potwierdzonego poziomu. Spraw już przekazanych nie przenosi się automatycznie. Wewnątrz kolejki zachowuje się kolejność przekazania. Sposób wyboru między kolejkami nie jest jeszcze ustalony. Priority nie jest SLA. Nie zatwierdzono automatycznej integracji.
 
-Etap udostępnienia do pracy: Moduł 7. Fikcyjny materiał z istniejącego pakietu ćwiczeń SerwisPlus, bez klucza trenerskiego.
+Etap udostępnienia do pracy: Moduł 7. Materiał fikcyjny do ćwiczeń.
 
-To kanoniczny zapis SP-07. Otwórz dopiero w module 7.
+Materiał do modułu 7 — aktualizuje wcześniejsze reguły od wskazanej daty wejścia w życie.

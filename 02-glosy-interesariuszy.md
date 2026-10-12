@@ -1,6 +1,6 @@
 # Głosy interesariuszy — oczekiwania i rozbieżności
 
-Fikcyjne zestawienie Aleksandry Maj z rozmów 2 września 2026. Status: wypowiedzi, nie zatwierdzone wymagania. Dawne oznaczenie: SP-02.
+Fikcyjne zestawienie Aleksandry Maj z rozmów 2 września 2026. Status: wypowiedzi, nie zatwierdzone wymagania.
 
 | Kto | Co mówi | Status |
 | --- | --- | --- |

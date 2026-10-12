@@ -1,6 +1,6 @@
 # Szkic wymagań do weryfikacji i walidacji
 
-Fikcyjny materiał do modułu 4. Data scenariusza: 4 września 2026, po warsztacie. Wersja 0.2. Status wszystkich pozycji: propozycja do przeglądu, niezatwierdzona. Dawne oznaczenie pliku: SP-06.
+Fikcyjny materiał do modułu 4. Data scenariusza: 4 września 2026, po warsztacie. Status wszystkich pozycji: propozycja do przeglądu, niezatwierdzona.
 
 Zestaw zawiera pozycje o różnej jakości i zasadności. Nie zakładajcie z góry, że każdą trzeba odrzucić. Deklarowane źródło to wskazówka autora szkicu — jego trafność też trzeba sprawdzić. Wymagania nie zmieniają reguł firmy.
 

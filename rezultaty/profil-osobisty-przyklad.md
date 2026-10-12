@@ -2,11 +2,11 @@
 
 > Fikcyjna osoba i fikcyjne odpowiedzi. Przykład szkoleniowy do SerwisPlus; nie opisuje Agnieszki ani rzeczywistego uczestnika.
 
-Data odniesienia: 2026-10-11. Status: przykład dydaktyczny.
+Status: przykład dydaktyczny.
 
 Powiązany plik: [profil analityka](profil-analityka-przyklad.md).
 
-## Kim jestem · 1 min
+## Kim jestem
 
 ### Podstawowe informacje
 
@@ -16,7 +16,7 @@ Mam na imię Aleksandra. Zwracaj się do mnie „Olu”.
 
 Lubię długie spacery i fotografię. Czas poza pracą pomaga mi nabrać dystansu. Nie chcę, aby rozwój zawodowy wypełniał cały tydzień.
 
-## Wartości, kierunek i granice · 3 min
+## Wartości, kierunek i granice
 
 ### Moje wartości
 

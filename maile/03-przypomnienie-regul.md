@@ -8,7 +8,7 @@ Materiał fikcyjny. Wiadomości i adresy w domenie `.example` powstały do szkol
 - **Od:** Ewa Krawiec <ewa.krawiec@serwisplus.example>
 - **Do:** Aleksandra Maj <aleksandra.maj@serwisplus.example>
 - **Temat:** Reguły obowiązujące od 1 sierpnia
-- **Podstawa:** adaptacja SP-03; nie zmienia reguł.
+- **Podstawa:** [reguły procesu](../03-reguly-biznesowe.md); wiadomość nie zmienia ich treści.
 
 ## Treść wiadomości
 
@@ -24,4 +24,4 @@ Ewa
 
 ## Załączniki i dostępność
 
-Brak załączników. Pełna karta reguł: [SP-03](../03-reguly-biznesowe.md). Wiadomość jest adaptacją tej karty, nie niezależnym potwierdzeniem. Dostępna od modułu 2.
+Brak załączników. Pełna lista: [reguły procesu](../03-reguly-biznesowe.md). Do czatu wystarczy dołączyć plik reguł. Wiadomość jest dostępna od modułu 2.

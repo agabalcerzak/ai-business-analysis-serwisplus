@@ -45,6 +45,8 @@ Wspólne źródła: [brief](01-brief-projektu.md), [reguły](03-reguly-biznesowe
 3. Porównajcie odpowiedź ze źródłami i celem podejścia. P3 pomaga w przeglądzie.
 4. Przekażcie sprawdzone uwagi przez P4 i zapiszcie poprawioną odpowiedź oraz prompty w `rezultaty/`.
 
+P2, P3 i P4 wysyłajcie w tej samej rozmowie co P1, żeby czat miał dostęp do źródeł.
+
 Przykłady 09–12 otwierajcie dopiero od M3. Są wejściem do kolejnego zadania, a nie materiałem do skopiowania w tym ćwiczeniu.
 
 ### P1 — kontekst rozmowy
@@ -153,8 +155,6 @@ Zakres planu: [IIBA — Prepare for Elicitation](https://www.iiba.org/contentass
 
 ### Weryfikacja i walidacja przykładowych wymagań z AI
 
-### Co to jest weryfikacja, a co walidacja?
-
 **Weryfikacja wymagań** to sprawdzenie jakości ich zapisu i modeli: czy zostały określone poprawnie, spełniają przyjęte standardy i nadają się do dalszej pracy. Pytamy: **„Czy dobrze opisaliśmy wymagania?”** Sprawdzamy m.in. jednoznaczność, spójność, kompletność na danym poziomie i testowalność. Wynikiem są konkretne uwagi do jakości oraz propozycje poprawy. Podstawa: [IIBA — Verify Requirements and Designs](https://www.iiba.org/contentassets/bba6e0ebf87742339a35daab74a20b11/task-card-verify-req-and-designs.pdf).
 
 **Walidacja wymagań** to sprawdzenie, czy wymagania wspierają potrzebę biznesową, cele organizacji i oczekiwaną wartość. Pytamy: **„Czy opisaliśmy właściwe wymagania — takie, których realizacja ma sens?”** Potrzebujemy kontekstu: celu inicjatywy, potrzeb interesariuszy, reguł, ograniczeń i decyzji. Sam tekst wymagania nie wystarcza do oceny jego zasadności. Wynikiem jest uzasadniona ocena biznesowa albo wskazanie, jakich informacji brakuje. Podstawa: [IIBA — Validate Requirements and Designs](https://www.iiba.org/contentassets/2c852987667c4ee29b7f2ea3fdbf9cb1/task-card-validate-req-and-designs.pdf).
@@ -214,7 +214,7 @@ Wracamy do przygotowania planu warsztatu z modułu 3. Zachowujemy stan projektu 
 
 1. Otwórzcie zapis próby z modułu 3: zadanie, prompt, źródła, wynik i kryteria.
 2. Do próby wykorzystajcie wcześniej ustaloną hipotezę i kryteria porównania.
-3. W nowej rozmowie podajcie to samo zadanie i stan źródeł, dodając wybrany profil lub instrukcje sposobu pracy. Korzystajcie z tego samego dostępnego modelu.
+3. W nowej rozmowie podajcie to samo zadanie i stan źródeł, dodając wybrany profil lub instrukcje sposobu pracy. Możecie użyć fikcyjnego [profilu osobistego](rezultaty/profil-osobisty-przyklad.md) i [profilu analityka](rezultaty/profil-analityka-przyklad.md). Korzystajcie z tego samego dostępnego modelu.
 4. Porównajcie odpowiedź z bazą M3 według tych samych kryteriów. Sprawdźcie źródła i zapiszcie poprawę, pogorszenie oraz ograniczenia porównania.
 5. Możecie przetestować kolejny wariant. Zachowajcie prompty, użyty kontekst i wyniki w `rezultaty/`.
 

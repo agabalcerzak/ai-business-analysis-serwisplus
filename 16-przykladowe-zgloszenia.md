@@ -1,4 +1,4 @@
-# SP-05. Przykładowe zgłoszenia
+# Przykładowe zgłoszenia
 
 Status: syntetyczne wejścia testowe; nie służą do szacowania częstości zjawisk
 
@@ -78,4 +78,4 @@ Status: syntetyczne wejścia testowe; nie służą do szacowania częstości zja
 
 Nie ma dostępu do załączników, pełnych nagłówków, katalogu urządzeń, rejestru umów ani historii wcześniejszych spraw. Treść klienta nie jest dowodem wykonania naprawy ani poziomu obsługi.
 
-Etap udostępnienia do pracy: Moduły 4–6. Fikcyjny materiał z istniejącego pakietu ćwiczeń SerwisPlus, bez klucza trenerskiego.
+Etap udostępnienia do pracy: Moduły 4–6. Materiał fikcyjny do ćwiczeń.

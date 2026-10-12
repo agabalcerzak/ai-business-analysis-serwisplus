@@ -1,6 +1,6 @@
 # Zasady pracy z informacją i ograniczenia organizacji
 
-Fikcyjny dokument organizacyjny. Właścicielka informacji procesowej: Ewa Krawiec. Stan: 2 września 2026, przed warsztatem. Dawne oznaczenie: SP-K03.
+Fikcyjny dokument organizacyjny. Właścicielka informacji procesowej: Ewa Krawiec. Stan: 2 września 2026, przed warsztatem.
 
 ## Obowiązujące zasady w scenariuszu
 

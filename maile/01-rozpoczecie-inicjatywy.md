@@ -8,7 +8,7 @@ Materiał fikcyjny. Wiadomości i adresy w domenie `.example` powstały do szkol
 - **Od:** Anna Lis <anna.lis@serwisplus.example>
 - **Do:** Aleksandra Maj <aleksandra.maj@serwisplus.example>
 - **Temat:** Sprawdźmy wsparcie konsultantów przez AI
-- **Podstawa:** adaptacja SP-01 oraz oczekiwania Anny z SP-02. Status: kierunek inicjatywy, nie zatwierdzone wymagania.
+- **Podstawa:** [brief projektu](../01-brief-projektu.md) i [głosy interesariuszy](../02-glosy-interesariuszy.md). Status: kierunek inicjatywy, nie zatwierdzone wymagania.
 
 ## Treść wiadomości
 
@@ -24,4 +24,4 @@ Anna
 
 ## Załączniki i dostępność
 
-Brak załączników w scenariuszu. [Brief SP-01](../01-brief-projektu.md) jest kartą źródłową tej adaptacji; wiadomość nie jest drugim niezależnym dowodem. Dostępna od modułu 2.
+Brak załączników. Wiadomość podsumowuje [brief projektu](../01-brief-projektu.md); wystarczy dołączyć do czatu jedną z tych wersji. Dostępna od modułu 2.
